@@ -6,6 +6,7 @@ brew "node"
 brew "watchman"
 brew "php"
 brew "zsh"
+brew "ruby"
 
 mas "LINE", id: 539883307
 mas "KakaoTalk", id: 869223134

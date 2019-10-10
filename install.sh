@@ -1,3 +1,5 @@
+# !/bin/bash
+
 # install CLI tools for Xcode
 xcode-select —-install
 
@@ -7,15 +9,26 @@ xcode-select —-install
 # install via brew
 brew bundle --file=./Brewfile
 
-# install oh my zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-# copy my zsh settings
-cp ./.zshrc ~/.zshrc
-
-# install zsh theme
-git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
-
 # install font
 cp ./fonts/. ~/Library/Fonts
 
+# configure zsh
+./zsh/install.sh
+
+# configure VSCode
+./vscode/install.sh
+
+# copy iterm2 configuration
+./iterm2/install.sh
+
+# install jekyll
+./jekyll/install.sh
+
+# install react-native
+./react-native/install.sh
+
+# install android sdk
+./android-studio/install.sh
+
+# install python3
+./python/install.sh
