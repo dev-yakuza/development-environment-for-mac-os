@@ -1,4 +1,7 @@
 # !/bin/bash
+brew cask install visual-studio-code
+
+sudo xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
 
 # install vscode extensions
 code --install-extension AlanWalk.markdown-toc
@@ -23,4 +26,4 @@ code --install-extension shardulm94.trailing-spaces
 code --install-extension vscode-icons-team.vscode-icons
 
 # copy vscode settings
-cp ./settings.json ~/Library/Application\ Support/Code/User/settings.json
+cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
