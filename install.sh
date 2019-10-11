@@ -48,9 +48,6 @@ chmod 755 ./jekyll/install.sh
 chmod 755 ./react-native/install.sh
 ./react-native/install.sh
 
-# install android sdk
-chmod 755 ./android-studio/install.sh
-
 # install xcode
 chmod 755 ./xcode/install.sh
 ./xcode/install.sh
