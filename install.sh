@@ -22,6 +22,8 @@ sudo xattr -dr com.apple.quarantine /Applications/Google\ Chrome.app
 open /Applications/Google\ Chrome.app
 sudo xattr -dr com.apple.quarantine /Applications/Android\ Studio.app
 open /Applications/Android\ Studio.app
+sudo xattr -dr com.apple.quarantine /Applications/iTerm.app
+open /Applications/iTerm.app
 
 # install font
 cp -a ./fonts/. ~/Library/Fonts
