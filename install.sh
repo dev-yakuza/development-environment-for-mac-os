@@ -55,5 +55,3 @@ chmod 755 ./xcode/install.sh
 # install python3
 chmod 755 ./python/install.sh
 ./python/install.sh
-
-#
