@@ -48,10 +48,10 @@ chmod 755 ./jekyll/install.sh
 chmod 755 ./react-native/install.sh
 ./react-native/install.sh
 
-# install xcode
-chmod 755 ./xcode/install.sh
-./xcode/install.sh
-
 # install python3
 chmod 755 ./python/install.sh
 ./python/install.sh
+
+# install xcode
+chmod 755 ./xcode/install.sh
+./xcode/install.sh
