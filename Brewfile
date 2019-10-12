@@ -5,7 +5,8 @@ brew "python3"
 brew "node"
 brew "watchman"
 brew "php"
-brew "zsh"
+# zsh is default in MacOS Catalina
+# brew "zsh"
 brew "ruby"
 
 mas "LINE", id: 539883307
