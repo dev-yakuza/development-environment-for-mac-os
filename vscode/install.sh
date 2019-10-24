@@ -25,6 +25,7 @@ code --install-extension redhat.vscode-yaml
 code --install-extension RoscoP.ActiveFileInStatusBar
 code --install-extension shardulm94.trailing-spaces
 code --install-extension vscode-icons-team.vscode-icons
+code --install-extension johnuphoff.vscode-styled-sort
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
