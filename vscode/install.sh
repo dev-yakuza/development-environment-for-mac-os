@@ -26,6 +26,7 @@ code --install-extension RoscoP.ActiveFileInStatusBar
 code --install-extension shardulm94.trailing-spaces
 code --install-extension vscode-icons-team.vscode-icons
 code --install-extension johnuphoff.vscode-styled-sort
+code --install-extension jpoissonnier.vscode-styled-components
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
