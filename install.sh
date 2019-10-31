@@ -27,6 +27,7 @@ open /Applications/iTerm.app
 open /Applications/slack.app
 open /Applications/kakaotalk.app
 open /Applications/trello.app
+open /Applications/Beyond\ Compare.app
 
 # install font
 cp -a ./fonts/. ~/Library/Fonts
