@@ -27,6 +27,10 @@ code --install-extension shardulm94.trailing-spaces
 code --install-extension vscode-icons-team.vscode-icons
 code --install-extension johnuphoff.vscode-styled-sort
 code --install-extension jpoissonnier.vscode-styled-components
+code --install-extension bmewburn.vscode-intelephense-client
+code --install-extension onecentlin.laravel5-snippets
+code --install-extension onecentlin.laravel-blade
+code --install-extension ryannaddy.laravel-artisan
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
