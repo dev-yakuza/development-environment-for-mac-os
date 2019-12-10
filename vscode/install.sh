@@ -31,6 +31,8 @@ code --install-extension bmewburn.vscode-intelephense-client
 code --install-extension onecentlin.laravel5-snippets
 code --install-extension onecentlin.laravel-blade
 code --install-extension ryannaddy.laravel-artisan
+code --install-extension felixfbecker.php-debug
+code --install-extension felixfbecker.php-pack
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
