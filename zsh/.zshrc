@@ -101,7 +101,8 @@ source $ZSH/oh-my-zsh.sh
 # remove user name in zsh
 # prompt_context(){}
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(virtualenv dir_writable dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time battery)
+# POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time battery)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
 
 # vscode code command
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
