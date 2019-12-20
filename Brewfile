@@ -8,6 +8,7 @@ brew "php"
 # zsh is default in MacOS Catalina
 # brew "zsh"
 brew "ruby"
+brew "tree"
 
 mas "LINE", id: 539883307
 mas "KakaoTalk", id: 869223134
