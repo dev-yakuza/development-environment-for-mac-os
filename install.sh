@@ -63,3 +63,6 @@ chmod 755 ./xcode/install.sh
 
 # download docker desktop
 open /Applications/Google\ Chrome.app https://www.docker.com/products/docker-desktop
+
+# install fastlane
+sudo gem install fastlane -NV
