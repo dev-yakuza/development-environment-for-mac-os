@@ -33,6 +33,7 @@ code --install-extension onecentlin.laravel-blade
 code --install-extension ryannaddy.laravel-artisan
 code --install-extension felixfbecker.php-debug
 code --install-extension felixfbecker.php-pack
+code --install-extension flowtype.flow-for-vscode
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
