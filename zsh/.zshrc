@@ -66,6 +66,9 @@ plugins=(git)
 
 # python virtualenv
 plugins=(virtualenv)
+export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
 
 source $ZSH/oh-my-zsh.sh
 
