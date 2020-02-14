@@ -69,7 +69,11 @@ plugins=(virtualenv)
 export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
 export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
-export CFLAGS="-I/usr/local/include -L/usr/local/lib"
+
+# For Ruby
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+eval "$(rbenv init -)"
+export CFLAGS=""
 
 source $ZSH/oh-my-zsh.sh
 
@@ -130,3 +134,9 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/jeonghean_kim/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/jeonghean_kim/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/jeonghean_kim/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/jeonghean_kim/google-cloud-sdk/completion.zsh.inc'; fi

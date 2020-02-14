@@ -45,6 +45,9 @@ chmod 755 ./vscode/install.sh
 chmod 755 ./iterm2/install.sh
 ./iterm2/install.sh
 
+# install lastet Ruby and Rails
+./rails/install.sh
+
 # install jekyll
 chmod 755 ./jekyll/install.sh
 ./jekyll/install.sh

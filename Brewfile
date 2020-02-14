@@ -9,6 +9,8 @@ brew "php"
 # brew "zsh"
 brew "ruby"
 brew "tree"
+brew "rbenv"
+brew "ruby-build"
 
 mas "LINE", id: 539883307
 mas "KakaoTalk", id: 869223134
