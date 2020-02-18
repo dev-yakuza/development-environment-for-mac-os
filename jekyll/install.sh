@@ -1,3 +1,3 @@
 # !/bin/bash
 
-sudo gem install bundler jekyll
+sudo gem install jekyll

@@ -7,3 +7,5 @@ rbenv install ${VERSION}
 rbenv rehash
 
 rbenv global ${VERSION}
+
+gem install bundler rails
