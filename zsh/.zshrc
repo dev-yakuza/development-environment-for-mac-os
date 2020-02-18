@@ -74,6 +74,7 @@ export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 eval "$(rbenv init -)"
 export CFLAGS=""
+RUBYOPT='-W:no-deprecated -W:no-experimental'
 
 source $ZSH/oh-my-zsh.sh
 
