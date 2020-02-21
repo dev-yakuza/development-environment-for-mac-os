@@ -126,9 +126,7 @@ alias composer="php /usr/local/bin/composer.phar"
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 # mysql
 export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
-# jekyll
-export GEM_HOME=$HOME/gems
-export PATH=$HOME/gems/bin:$PATH
+
 # Android path for React Native
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
