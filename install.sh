@@ -26,7 +26,6 @@ sudo xattr -dr com.apple.quarantine /Applications/iTerm.app
 open /Applications/iTerm.app
 open /Applications/slack.app
 open /Applications/kakaotalk.app
-open /Applications/trello.app
 open /Applications/Beyond\ Compare.app
 open /Applications/Karabiner-Elements.app
 

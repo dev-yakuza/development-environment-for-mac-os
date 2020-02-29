@@ -17,7 +17,6 @@ brew "yarn"
 mas "LINE", id: 539883307
 mas "KakaoTalk", id: 869223134
 mas "Slack", id: 803453959
-mas "Trello", id: 1278508951
 
 cask "ngrok"
 tap "adoptopenjdk/openjdk"
