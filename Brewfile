@@ -13,6 +13,7 @@ berw "openssl"
 brew "rbenv"
 brew "ruby-build"
 brew "yarn"
+brew "postgresql"
 
 mas "LINE", id: 539883307
 mas "KakaoTalk", id: 869223134
