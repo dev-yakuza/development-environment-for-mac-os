@@ -24,6 +24,8 @@ sudo xattr -dr com.apple.quarantine /Applications/Android\ Studio.app
 open /Applications/Android\ Studio.app
 sudo xattr -dr com.apple.quarantine /Applications/iTerm.app
 open /Applications/iTerm.app
+sudo xattr -dr com.apple.quarantine /Applications/PSequel.app
+open /Applications/PSequel.app
 open /Applications/slack.app
 open /Applications/kakaotalk.app
 open /Applications/Beyond\ Compare.app

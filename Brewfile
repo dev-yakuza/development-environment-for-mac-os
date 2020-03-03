@@ -36,3 +36,4 @@ cask "karabiner-elements"
 cask "bitbar"
 tap heroku/brew
 cask "heroku"
+cask "psequel"

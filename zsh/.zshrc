@@ -139,3 +139,6 @@ if [ -f '/Users/jeonghean_kim/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/j
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/jeonghean_kim/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/jeonghean_kim/google-cloud-sdk/completion.zsh.inc'; fi
+
+# postgresql
+export PGDATA='/usr/local/var/postgres'
