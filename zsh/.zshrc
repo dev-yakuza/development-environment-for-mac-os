@@ -121,7 +121,7 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 alias python=python3
 alias pip=pip3
 # composer
-alias composer="php /usr/local/bin/composer.phar"
+alias composer="php /usr/local/bin/composer"
 # Laravel
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 # mysql
