@@ -79,6 +79,7 @@ alias bundler=/Users/$USER/.rbenv/shims/bundler
 alias ruby=/Users/$USER/.rbenv/shims/ruby
 alias bundle=/Users/$USER/.rbenv/shims/bundle
 alias gem=/Users/$USER/.rbenv/shims/gem
+alias rails=/Users/$USER/.rbenv/shims/rails
 
 source $ZSH/oh-my-zsh.sh
 
