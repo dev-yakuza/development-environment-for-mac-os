@@ -78,6 +78,7 @@ RUBYOPT='-W:no-deprecated -W:no-experimental'
 alias bundler=/Users/$USER/.rbenv/shims/bundler
 alias ruby=/Users/$USER/.rbenv/shims/ruby
 alias bundle=/Users/$USER/.rbenv/shims/bundle
+alias gem=/Users/$USER/.rbenv/shims/gem
 
 source $ZSH/oh-my-zsh.sh
 
