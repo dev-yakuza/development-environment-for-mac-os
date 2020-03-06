@@ -75,6 +75,9 @@ export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 eval "$(rbenv init -)"
 export CFLAGS=""
 RUBYOPT='-W:no-deprecated -W:no-experimental'
+alias bundler=/Users/jeonghean_kim/.rbenv/shims/bundler
+alias ruby=/Users/jeonghean_kim/.rbenv/shims/ruby
+alias bundle=/Users/jeonghean_kim/.rbenv/shims/bundle
 
 source $ZSH/oh-my-zsh.sh
 
