@@ -75,9 +75,9 @@ export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 eval "$(rbenv init -)"
 export CFLAGS=""
 RUBYOPT='-W:no-deprecated -W:no-experimental'
-alias bundler=/Users/jeonghean_kim/.rbenv/shims/bundler
-alias ruby=/Users/jeonghean_kim/.rbenv/shims/ruby
-alias bundle=/Users/jeonghean_kim/.rbenv/shims/bundle
+alias bundler=/Users/$USER/.rbenv/shims/bundler
+alias ruby=/Users/$USER/.rbenv/shims/ruby
+alias bundle=/Users/$USER/.rbenv/shims/bundle
 
 source $ZSH/oh-my-zsh.sh
 
@@ -138,10 +138,10 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/jeonghean_kim/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/jeonghean_kim/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '/Users/$USER/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/$USER/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/jeonghean_kim/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/jeonghean_kim/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f '/Users/$USER/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/$USER/google-cloud-sdk/completion.zsh.inc'; fi
 
 # postgresql
 export PGDATA='/usr/local/var/postgres'
