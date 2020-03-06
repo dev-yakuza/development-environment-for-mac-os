@@ -9,14 +9,15 @@ brew "php"
 # brew "zsh"
 brew "ruby"
 brew "tree"
+berw "openssl"
 brew "rbenv"
 brew "ruby-build"
 brew "yarn"
+brew "postgresql"
 
 mas "LINE", id: 539883307
 mas "KakaoTalk", id: 869223134
 mas "Slack", id: 803453959
-mas "Trello", id: 1278508951
 
 cask "ngrok"
 tap "adoptopenjdk/openjdk"
@@ -33,3 +34,6 @@ cask "iterm2"
 cask "beyond-compare"
 cask "karabiner-elements"
 cask "bitbar"
+tap heroku/brew
+cask "heroku"
+cask "psequel"
