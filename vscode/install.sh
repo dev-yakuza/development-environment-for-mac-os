@@ -34,6 +34,7 @@ code --install-extension ryannaddy.laravel-artisan
 code --install-extension felixfbecker.php-debug
 code --install-extension felixfbecker.php-pack
 code --install-extension kaiwood.endwise
+code --install-extension rebornix.ruby
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
