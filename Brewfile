@@ -15,6 +15,7 @@ brew "ruby-build"
 brew "yarn"
 brew "postgresql"
 brew "redis"
+brew "forego"
 
 mas "LINE", id: 539883307
 mas "KakaoTalk", id: 869223134
