@@ -70,3 +70,7 @@ open /Applications/Google\ Chrome.app https://www.docker.com/products/docker-des
 
 # install fastlane
 sudo gem install fastlane -NV
+
+# configure redis
+chmod 755 ./redis/install.sh
+./redis/install.sh
