@@ -16,6 +16,7 @@ brew "yarn"
 brew "postgresql"
 brew "redis"
 brew "forego"
+brew "cmake"
 
 mas "LINE", id: 539883307
 mas "KakaoTalk", id: 869223134
