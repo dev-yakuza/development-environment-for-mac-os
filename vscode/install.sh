@@ -35,6 +35,7 @@ code --install-extension felixfbecker.php-debug
 code --install-extension felixfbecker.php-pack
 code --install-extension kaiwood.endwise
 code --install-extension rebornix.ruby
+code --install-extension dbaeumer.vscode-eslint
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
