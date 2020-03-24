@@ -7,7 +7,6 @@ brew "watchman"
 brew "php"
 # zsh is default in MacOS Catalina
 # brew "zsh"
-brew "ruby"
 brew "tree"
 brew "openssl"
 brew "rbenv"
