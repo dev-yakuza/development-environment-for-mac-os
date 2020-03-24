@@ -36,6 +36,6 @@ cask "iterm2"
 cask "beyond-compare"
 cask "karabiner-elements"
 cask "bitbar"
-tap heroku/brew
+tap "heroku/brew"
 cask "heroku"
 cask "psequel"
