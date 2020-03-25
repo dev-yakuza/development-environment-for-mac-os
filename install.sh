@@ -30,6 +30,7 @@ open /Applications/slack.app
 open /Applications/kakaotalk.app
 open /Applications/Beyond\ Compare.app
 open /Applications/Karabiner-Elements.app
+open /Applications/BitBar.app
 open /Applications/figma.app
 
 # install font
@@ -75,3 +76,7 @@ sudo gem install fastlane -NV
 # configure redis
 chmod 755 ./redis/install.sh
 ./redis/install.sh
+
+# BitBar Github Contribution Plugin
+chmod 755 ./bitbar/install.sh
+./bitbar/install.sh
