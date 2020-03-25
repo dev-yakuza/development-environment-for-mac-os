@@ -30,6 +30,7 @@ open /Applications/slack.app
 open /Applications/kakaotalk.app
 open /Applications/Beyond\ Compare.app
 open /Applications/Karabiner-Elements.app
+open /Applications/figma.app
 
 # install font
 cp -a ./fonts/. ~/Library/Fonts
