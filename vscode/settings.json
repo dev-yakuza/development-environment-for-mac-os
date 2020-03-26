@@ -37,12 +37,13 @@
     "**/*.xcworkspace": true,
     "**/.meteor": true
   },
+  "editor.formatOnSave": true,
   "extensions.autoUpdate": true,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
   "prettier.jsxBracketSameLine": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
+    "source.fixAll.eslint": true
   },
   "[markdown]": {
     "editor.formatOnSave": false
@@ -51,9 +52,7 @@
   "yaml.schemas": {
     "file:///Users/jeonghean_kim/.vscode/extensions/atlassian.atlascode-1.4.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
-  "python.linting.pylintArgs": [
-    "--load-plugins=pylint_django"
-  ],
+  "python.linting.pylintArgs": ["--load-plugins=pylint_django"],
   "workbench.iconTheme": "vscode-icons",
   "terminal.integrated.rendererType": "dom"
 }
