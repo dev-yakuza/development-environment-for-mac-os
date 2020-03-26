@@ -48,16 +48,10 @@
   "[markdown]": {
     "editor.formatOnSave": false
   },
-  "[tsx]": {
+  "[javascriptreact]": {
     "editor.formatOnSave": false
   },
-  "[ts]": {
-    "editor.formatOnSave": false
-  },
-  "[js]": {
-    "editor.formatOnSave": false
-  },
-  "[jsx]": {
+  "[typescriptreact]": {
     "editor.formatOnSave": false
   },
   "editor.suggestSelection": "first",
