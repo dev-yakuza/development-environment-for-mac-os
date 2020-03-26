@@ -48,12 +48,6 @@
   "[markdown]": {
     "editor.formatOnSave": false
   },
-  "[javascriptreact]": {
-    "editor.formatOnSave": false
-  },
-  "[typescriptreact]": {
-    "editor.formatOnSave": false
-  },
   "editor.suggestSelection": "first",
   "yaml.schemas": {
     "file:///Users/jeonghean_kim/.vscode/extensions/atlassian.atlascode-1.4.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
