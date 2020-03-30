@@ -147,3 +147,5 @@ if [ -f '/Users/$USER/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/$US
 
 # postgresql
 export PGDATA='/usr/local/var/postgres'
+
+export GIT_MERGE_AUTOEDIT=no
