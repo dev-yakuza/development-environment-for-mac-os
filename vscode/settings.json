@@ -54,5 +54,6 @@
   },
   "python.linting.pylintArgs": ["--load-plugins=pylint_django"],
   "workbench.iconTheme": "vscode-icons",
-  "terminal.integrated.rendererType": "dom"
+  "terminal.integrated.rendererType": "dom",
+  "editor.tabSize": 2
 }
