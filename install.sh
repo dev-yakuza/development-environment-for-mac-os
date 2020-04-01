@@ -41,6 +41,10 @@ open /Applications/figma.app
 # install font
 cp -a ./fonts/. ~/Library/Fonts
 
+# Node
+chmod 755 ./node/install.sh
+./node/install.sh
+
 # configure zsh
 chmod 755 ./zsh/install.sh
 ./zsh/install.sh

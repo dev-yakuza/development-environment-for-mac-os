@@ -150,5 +150,9 @@ export PGDATA='/usr/local/var/postgres'
 
 export GIT_MERGE_AUTOEDIT=no
 
+# NVM
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
 # For work
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=true

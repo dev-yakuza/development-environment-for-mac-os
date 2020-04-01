@@ -2,7 +2,7 @@ brew "mas"
 brew "git-flow"
 brew "mysql@5.7"
 brew "python3"
-brew "node"
+brew "nvm"
 brew "watchman"
 brew "php"
 # zsh is default in MacOS Catalina
