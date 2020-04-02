@@ -49,9 +49,6 @@
     "editor.formatOnSave": false
   },
   "editor.suggestSelection": "first",
-  "yaml.schemas": {
-    "file:///Users/jeonghean_kim/.vscode/extensions/atlassian.atlascode-1.4.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-  },
   "python.linting.pylintArgs": ["--load-plugins=pylint_django"],
   "workbench.iconTheme": "vscode-icons",
   "terminal.integrated.rendererType": "dom",
