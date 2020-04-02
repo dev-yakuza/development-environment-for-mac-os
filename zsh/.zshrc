@@ -155,4 +155,4 @@ export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
 # For work
-export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=true
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
