@@ -89,3 +89,7 @@ chmod 755 ./redis/install.sh
 # BitBar Github Contribution Plugin
 chmod 755 ./bitbar/install.sh
 ./bitbar/install.sh
+
+# Set screenshot folder
+chmod 755 ./screenshot/install.sh
+./screenshot/install.sh
