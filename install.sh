@@ -86,6 +86,10 @@ sudo gem install fastlane -NV
 chmod 755 ./redis/install.sh
 ./redis/install.sh
 
+# Laravel
+chmod 755 ./laravel/install.sh
+./laravel/install.sh
+
 # BitBar Github Contribution Plugin
 chmod 755 ./bitbar/install.sh
 ./bitbar/install.sh
