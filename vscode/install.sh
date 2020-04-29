@@ -37,6 +37,7 @@ code --install-extension dbaeumer.vscode-eslint
 code --install-extension rebornix.ruby
 code --install-extension kaiwood.endwise
 code --install-extension misogi.ruby-rubocop
+code --install-extension pnp.polacode
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
