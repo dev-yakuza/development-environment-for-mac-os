@@ -16,6 +16,8 @@ brew "postgresql"
 brew "redis"
 brew "forego"
 brew "cmake"
+brew "brotli"
+brew "git-ftp"
 
 mas "LINE", id: 539883307
 mas "KakaoTalk", id: 869223134
