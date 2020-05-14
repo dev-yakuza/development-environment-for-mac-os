@@ -30,6 +30,8 @@ sudo xattr -dr com.apple.quarantine /Applications/PSequel.app
 open /Applications/PSequel.app
 sudo xattr -dr com.apple.quarantine /Applications/GitHub\ Desktop.app
 open /Applications/GitHub\ Desktop.app
+sudo xattr -dr com.apple.quarantine /Applications/Cyberduck.app
+open /Applications/Cyberduck.app
 
 open /Applications/slack.app
 open /Applications/kakaotalk.app

@@ -38,6 +38,7 @@ code --install-extension rebornix.ruby
 code --install-extension kaiwood.endwise
 code --install-extension misogi.ruby-rubocop
 code --install-extension pnp.polacode
+code --install-extension humy2833.ftp-simple
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
