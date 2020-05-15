@@ -5,7 +5,7 @@ brew "python3"
 brew "nvm"
 # brew "yarn"
 brew "watchman"
-brew "php"
+brew "php@7.2"
 # zsh is default in MacOS Catalina
 # brew "zsh"
 brew "tree"
