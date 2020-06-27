@@ -39,7 +39,6 @@ code --install-extension kaiwood.endwise
 code --install-extension misogi.ruby-rubocop
 code --install-extension pnp.polacode
 code --install-extension editorconfig.editorconfig
-code --install-extension kisstkondoros.vscode-codemetrics
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension formulahendry.auto-close-tag
 
