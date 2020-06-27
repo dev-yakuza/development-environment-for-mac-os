@@ -8,7 +8,7 @@ sudo xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
 code --install-extension AlanWalk.markdown-toc
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
-code --install-extension CoenraadS.bracket-pair-colorizer
+code --install-extension coenraads.bracket-pair-colorizer-2
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension dzannotti.vscode-babel-coloring
 code --install-extension esbenp.prettier-vscode
@@ -39,6 +39,9 @@ code --install-extension kaiwood.endwise
 code --install-extension misogi.ruby-rubocop
 code --install-extension pnp.polacode
 code --install-extension editorconfig.editorconfig
+code --install-extension kisstkondoros.vscode-codemetrics
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension formulahendry.auto-close-tag
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
