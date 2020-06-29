@@ -40,7 +40,6 @@ code --install-extension misogi.ruby-rubocop
 code --install-extension pnp.polacode
 code --install-extension editorconfig.editorconfig
 code --install-extension formulahendry.auto-rename-tag
-code --install-extension formulahendry.auto-close-tag
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
