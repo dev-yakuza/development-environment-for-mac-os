@@ -9,3 +9,6 @@ brew install yarn
 
 # fix version
 npm config set save-exact=true
+
+# install git open
+npm install --global git-open
