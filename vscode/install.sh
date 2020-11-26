@@ -41,6 +41,7 @@ code --install-extension pnp.polacode
 code --install-extension editorconfig.editorconfig
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension znck.grammarly
+code --install-extension devzstudio.emoji-snippets
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
