@@ -42,6 +42,16 @@ code --install-extension editorconfig.editorconfig
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension znck.grammarly
 code --install-extension devzstudio.emoji-snippets
+code --install-extension chrmarti.regex
+code --install-extension eamodio.gitlens
+code --install-extension jebbs.plantuml
+code --install-extension mechatroner.rainbow-csv
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-vscode-remote.remote-containers
+code --install-extension mutantdino.resourcemonitor
+code --install-extension ryu1kn.partial-diff
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension wingrunr21.vscode-ruby
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
