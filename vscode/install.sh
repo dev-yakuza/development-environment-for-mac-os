@@ -51,7 +51,6 @@ code --install-extension mutantdino.resourcemonitor
 code --install-extension ryu1kn.partial-diff
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension wingrunr21.vscode-ruby
-code --install-extension oderwat.indent-rainbow
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
