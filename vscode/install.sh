@@ -54,3 +54,4 @@ code --install-extension wingrunr21.vscode-ruby
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+cp ./vscode/keybindings.json ~/Library/Application Support/Code/User/keybindings.json
