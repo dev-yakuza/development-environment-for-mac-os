@@ -5,5 +5,15 @@
     "key": "ctrl+`",
     "command": "workbench.action.focusActiveEditorGroup",
     "when": "terminalFocus"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "workbench.view.search",
+    "when": "workbench.view.search.active"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "searchFocus"
   }
 ]
