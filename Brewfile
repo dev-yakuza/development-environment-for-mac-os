@@ -22,6 +22,7 @@ brew 'brotli'
 brew 'git-ftp'
 brew 'lftp'
 brew 'gh'
+brew 'gdal'
 
 mas 'LINE', id: 539_883_307
 mas 'KakaoTalk', id: 869_223_134
