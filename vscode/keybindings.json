@@ -10,5 +10,10 @@
     "key": "shift+cmd+f",
     "command": "workbench.action.focusActiveEditorGroup",
     "when": "searchInputBoxFocus"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "copyRelativeFilePath",
+    "when": "editorFocus"
   }
 ]
