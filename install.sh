@@ -39,7 +39,6 @@ open /Applications/slack.app
 open /Applications/kakaotalk.app
 open /Applications/Beyond\ Compare.app
 open /Applications/Karabiner-Elements.app
-open /Applications/BitBar.app
 open /Applications/figma.app
 
 # install font
@@ -93,10 +92,6 @@ chmod 755 ./redis/install.sh
 # Laravel
 chmod 755 ./laravel/install.sh
 ./laravel/install.sh
-
-# BitBar Github Contribution Plugin
-chmod 755 ./bitbar/install.sh
-./bitbar/install.sh
 
 # Set screenshot folder
 chmod 755 ./screenshot/install.sh
