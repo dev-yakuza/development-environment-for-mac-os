@@ -101,3 +101,7 @@ chmod 755 ./bitbar/install.sh
 # Set screenshot folder
 chmod 755 ./screenshot/install.sh
 ./screenshot/install.sh
+
+# Install Flutter
+chmod 755 ./fluuter/install.sh
+./fluuter/install.sh
