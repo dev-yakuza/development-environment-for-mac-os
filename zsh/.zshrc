@@ -155,3 +155,6 @@ source $(brew --prefix nvm)/nvm.sh
 
 # For work
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+
+# Flutter
+export PATH=$HOME/development/flutter/bin:$PATH
