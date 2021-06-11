@@ -1,7 +1,6 @@
 {
   "terminal.integrated.shell.osx": "/bin/zsh",
   "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
-  "window.zoomLevel": 2,
   "editor.fontFamily": "'D2Coding ligature'",
   "editor.fontLigatures": true,
   "window.restoreWindows": "all",
@@ -15,7 +14,11 @@
     "**/.vscode": false,
     "**/yarn.lock": true,
     "**/tmp": true,
-    "node_modules": true
+    "node_modules": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
   },
   "files.watcherExclude": {
     "**/.git/objects/**": true,
@@ -52,5 +55,60 @@
   "python.linting.pylintArgs": ["--load-plugins=pylint_django"],
   "workbench.iconTheme": "vscode-icons",
   "terminal.integrated.rendererType": "dom",
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": "{{put-password-here}}"
+    }
+  ],
+  "cSpell.enableFiletypes": [
+    "!markdown"
+  ],
+  "python.languageServer": "Pylance",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter-notebook",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "window.zoomLevel": 2,
+  "java.project.importHint": false,
+  "python.showStartPage": false,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "dart.debugExternalLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": [
+    "asdfasdfasdfasdf"
+  ],
+  "diffEditor.ignoreTrimWhitespace": false
 }
