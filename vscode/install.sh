@@ -53,6 +53,7 @@ code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension wingrunr21.vscode-ruby
 code --install-extension dart-code.flutter
 code --install-extension sleistner.vscode-fileutils
+code --install-extension hashicorp.terraform
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
