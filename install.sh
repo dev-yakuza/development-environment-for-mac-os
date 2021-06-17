@@ -100,3 +100,6 @@ chmod 755 ./screenshot/install.sh
 # Install Flutter
 chmod 755 ./fluuter/install.sh
 ./fluuter/install.sh
+
+# Change Git Default branch name
+git config --global init.defaultBranch main
