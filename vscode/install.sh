@@ -41,7 +41,6 @@ code --install-extension pnp.polacode
 code --install-extension editorconfig.editorconfig
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension devzstudio.emoji-snippets
-code --install-extension chrmarti.regex
 code --install-extension eamodio.gitlens
 code --install-extension jebbs.plantuml
 code --install-extension mechatroner.rainbow-csv
