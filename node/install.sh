@@ -9,3 +9,8 @@ brew install yarn
 
 # install git open
 npm install --global git-open
+
+# create-react-app
+npm install -g create-react-app
+# vue-cli
+npm install -g @vue/cli
