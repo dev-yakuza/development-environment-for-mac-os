@@ -26,6 +26,7 @@ brew 'gdal'
 brew 'lefthook'
 brew 'tfenv'
 brew 'lcov'
+brew 'go'
 
 mas 'LINE', id: 539_883_307
 mas 'KakaoTalk', id: 869_223_134
