@@ -54,6 +54,7 @@ code --install-extension dart-code.flutter
 code --install-extension sleistner.vscode-fileutils
 code --install-extension hashicorp.terraform
 code --install-extension octref.vetur
+code --install-extension dsznajder.es7-react-js-snippets
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
