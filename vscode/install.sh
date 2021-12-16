@@ -8,7 +8,6 @@ sudo xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
 code --install-extension AlanWalk.markdown-toc
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
-code --install-extension coenraads.bracket-pair-colorizer-2
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension dzannotti.vscode-babel-coloring
 code --install-extension esbenp.prettier-vscode
