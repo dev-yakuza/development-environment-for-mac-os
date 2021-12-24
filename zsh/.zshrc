@@ -162,3 +162,6 @@ export PATH=$HOME/development/flutter/bin:$PATH
 # gcloud
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
+
+# go
+export PATH="~/go/bin:$PATH"

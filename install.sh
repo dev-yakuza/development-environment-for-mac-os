@@ -105,5 +105,9 @@ chmod 755 ./flutter/install.sh
 chmod 755 ./infra/install.sh
 ./infra/install.sh
 
+# Install go
+chmod 755 ./go/install.sh
+./go/install.sh
+
 # Change Git Default branch name
 git config --global init.defaultBranch main
