@@ -71,6 +71,7 @@ export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
 
 # For Ruby
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export CFLAGS=""
 RUBYOPT='-W:no-deprecated -W:no-experimental'
@@ -79,6 +80,7 @@ alias ruby=/Users/$USER/.rbenv/shims/ruby
 alias bundle=/Users/$USER/.rbenv/shims/bundle
 alias gem=/Users/$USER/.rbenv/shims/gem
 alias rails=/Users/$USER/.rbenv/shims/rails
+alias rake=/Users/$USER/.rbenv/shims/rake
 
 source $ZSH/oh-my-zsh.sh
 
@@ -124,7 +126,15 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 # python3 default
 alias python=python3
 alias pip=pip3
+# pyenv setting
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+# pyenv-virtualenv setting
+eval "$(pyenv virtualenv-init -)"
+
 # composer
+export PATH="/usr/local/opt/php@7.2/bin:$PATH"
+export PATH="/usr/local/opt/php@7.2/sbin:$PATH"
 alias composer="php /usr/local/bin/composer"
 # Laravel
 export PATH="$HOME/.composer/vendor/bin:$PATH"
@@ -155,6 +165,7 @@ source $(brew --prefix nvm)/nvm.sh
 
 # For work
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # Flutter
 export PATH=$HOME/development/flutter/bin:$PATH
@@ -164,4 +175,4 @@ source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.in
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
 
 # go
-export PATH="~/go/bin:$PATH"
+export PATH="$HOME/go/bin:$PATH"
