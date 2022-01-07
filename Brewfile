@@ -6,7 +6,6 @@ brew 'mysql@5.7'
 brew 'python@3.8'
 brew 'pyenv'
 brew 'pyenv-virtualenv'
-brew 'autoenv'
 brew 'nvm'
 # brew "yarn"
 brew 'watchman'
