@@ -54,6 +54,7 @@ code --install-extension sleistner.vscode-fileutils
 code --install-extension hashicorp.terraform
 code --install-extension octref.vetur
 code --install-extension dsznajder.es7-react-js-snippets
+code --install-extension ms-vscode.powershell
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
