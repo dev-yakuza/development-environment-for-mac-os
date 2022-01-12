@@ -61,20 +61,16 @@
       "server": "{{put-server-name-here}}",
       "database": "{{put-database-name-here}}",
       "user": "{{put-username-here}}",
-      "password": "{{put-password-here}}"
+      "password": ""
     }
   ],
   "cSpell.enableFiletypes": [
     "!markdown"
   ],
   "python.languageServer": "Pylance",
-  "workbench.editorAssociations": [
-    {
-      "viewType": "jupyter-notebook",
-      "filenamePattern": "*.ipynb"
-    }
-  ],
-  "window.zoomLevel": 2,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
   "java.project.importHint": false,
   "python.showStartPage": false,
   "[dart]": {
@@ -110,5 +106,20 @@
   "cSpell.userWords": [
     "asdfasdfasdfasdf"
   ],
-  "diffEditor.ignoreTrimWhitespace": false
+  "diffEditor.ignoreTrimWhitespace": false,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true
+  },
+  "workbench.colorTheme": "Default Dark+",
+  "window.zoomLevel": 2,
+  "redhat.telemetry.enabled": false,
+  "swaggerViewer.previewInBrowser": true
 }
