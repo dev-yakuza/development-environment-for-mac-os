@@ -55,6 +55,7 @@ code --install-extension hashicorp.terraform
 code --install-extension octref.vetur
 code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension ms-vscode.powershell
+code --install-extension arjun.swagger-viewer
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
