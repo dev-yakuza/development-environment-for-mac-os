@@ -56,6 +56,7 @@ code --install-extension octref.vetur
 code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension ms-vscode.powershell
 code --install-extension arjun.swagger-viewer
+code --install-extension johnsoncodehk.volar
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
