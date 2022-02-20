@@ -111,6 +111,7 @@ chmod 755 ./go/install.sh
 
 # Change Git Default branch name
 git config --global init.defaultBranch main
+git config core.ignorecase false
 
 # copy keybindings
 cp -R ./KeyBindings ~/Library/
