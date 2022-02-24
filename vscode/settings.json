@@ -52,7 +52,9 @@
     "editor.formatOnSave": false
   },
   "editor.suggestSelection": "first",
-  "python.linting.pylintArgs": ["--load-plugins=pylint_django"],
+  "python.linting.pylintArgs": [
+    "--load-plugins=pylint_django"
+  ],
   "workbench.iconTheme": "vscode-icons",
   "terminal.integrated.rendererType": "dom",
   "editor.tabSize": 2,
@@ -121,5 +123,6 @@
   "workbench.colorTheme": "Default Dark+",
   "window.zoomLevel": 2,
   "redhat.telemetry.enabled": false,
-  "swaggerViewer.previewInBrowser": true
+  "swaggerViewer.previewInBrowser": true,
+  "workbench.editor.showTabs": true
 }
