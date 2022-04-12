@@ -12,5 +12,7 @@ npm install --global git-open
 
 # create-react-app
 npm install -g create-react-app
-# vue-cli
-npm install -g @vue/cli
+
+# For Swagger UI
+npm install -g redoc-cli
+# redoc-cli bundle -o index.html swagger.yaml
