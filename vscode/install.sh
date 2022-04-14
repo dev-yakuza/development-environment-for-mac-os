@@ -8,7 +8,6 @@ sudo xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
 code --install-extension AlanWalk.markdown-toc
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
-code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension dzannotti.vscode-babel-coloring
 code --install-extension esbenp.prettier-vscode
 code --install-extension felixfbecker.php-intellisense
@@ -57,6 +56,7 @@ code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension ms-vscode.powershell
 code --install-extension arjun.swagger-viewer
 code --install-extension johnsoncodehk.volar
+code --install-extension mrmlnc.vscode-remark
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
