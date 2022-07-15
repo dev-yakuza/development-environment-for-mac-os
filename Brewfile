@@ -30,6 +30,7 @@ brew 'tfenv'
 brew 'lcov'
 brew 'go'
 brew 'golangci-lint'
+brew 'bundletool'
 
 mas 'LINE', id: 539_883_307
 mas 'KakaoTalk', id: 869_223_134
