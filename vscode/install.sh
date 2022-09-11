@@ -58,6 +58,7 @@ code --install-extension arjun.swagger-viewer
 code --install-extension johnsoncodehk.volar
 code --install-extension mrmlnc.vscode-remark
 code --install-extension flutterando.flutter-coverage
+code --install-extension unifiedjs.vscode-mdx
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
