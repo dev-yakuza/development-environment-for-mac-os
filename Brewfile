@@ -5,6 +5,7 @@ brew 'git-flow'
 brew 'mysql@5.7'
 brew 'python@3.8'
 brew 'pyenv'
+brew 'pipenv'
 brew 'pyenv-virtualenv'
 brew 'nvm'
 # brew "yarn"
