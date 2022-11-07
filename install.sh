@@ -30,6 +30,8 @@ sudo xattr -dr com.apple.quarantine /Applications/meld.app
 open /Applications/meld.app
 sudo xattr -dr com.apple.quarantine /Applications/docker.app
 open /Applications/docker.app
+sudo xattr -dr com.apple.quarantine /Applications/dbeaver.app
+open /Applications/dbeaver.app
 
 open /Applications/slack.app
 open /Applications/kakaotalk.app
