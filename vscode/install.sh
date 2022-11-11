@@ -56,3 +56,8 @@ code --install-extension ritwickdey.LiveServer
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 cp ./vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+
+# toc
+git clone https://github.com/dev-yakuza/markdown-toc.git ~/.vscode/extensions/markdown-toc
+cd ~/.vscode/extensions/markdown-toc && npm install
+cd ~/.vscode/extensions/markdown-toc && npm run vscode:prepublish
