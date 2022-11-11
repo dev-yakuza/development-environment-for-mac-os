@@ -7,7 +7,6 @@ code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
 code --install-extension dzannotti.vscode-babel-coloring
 code --install-extension esbenp.prettier-vscode
-code --install-extension felixfbecker.php-intellisense
 code --install-extension fterrag.vscode-php-cs-fixer
 code --install-extension gencer.html-slim-scss-css-class-completion
 code --install-extension jcbuisson.vue
@@ -21,13 +20,10 @@ code --install-extension RoscoP.ActiveFileInStatusBar
 code --install-extension shardulm94.trailing-spaces
 code --install-extension vscode-icons-team.vscode-icons
 code --install-extension johnuphoff.vscode-styled-sort
-code --install-extension jpoissonnier.vscode-styled-components
 code --install-extension bmewburn.vscode-intelephense-client
 code --install-extension onecentlin.laravel5-snippets
 code --install-extension onecentlin.laravel-blade
 code --install-extension ryannaddy.laravel-artisan
-code --install-extension felixfbecker.php-debug
-code --install-extension felixfbecker.php-pack
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension rebornix.ruby
 code --install-extension kaiwood.endwise
@@ -52,7 +48,6 @@ code --install-extension octref.vetur
 code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension ms-vscode.powershell
 code --install-extension arjun.swagger-viewer
-code --install-extension johnsoncodehk.volar
 code --install-extension mrmlnc.vscode-remark
 code --install-extension flutterando.flutter-coverage
 code --install-extension unifiedjs.vscode-mdx
