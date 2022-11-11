@@ -61,4 +61,4 @@ code --install-extension ritwickdey.LiveServer
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
-cp ./vscode/keybindings.json ~/Library/Application Support/Code/User/keybindings.json
+cp ./vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
