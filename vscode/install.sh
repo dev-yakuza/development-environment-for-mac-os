@@ -3,7 +3,6 @@
 sudo xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
 
 # install vscode extensions
-code --install-extension AlanWalk.markdown-toc
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
 code --install-extension dzannotti.vscode-babel-coloring
