@@ -6,10 +6,6 @@
 # install via brew
 brew bundle --file=./Brewfile
 
-sudo xattr -dr com.apple.quarantine /Applications/Sequel\ Pro.app
-open /Applications/Sequel\ Pro.app
-sudo xattr -dr com.apple.quarantine /Applications/DB\ Browser\ for\ SQLite.app
-open /Applications/DB\ Browser\ for\ SQLite.app
 sudo xattr -dr com.apple.quarantine /Applications/MySQLWorkbench.app
 open /Applications/MySQLWorkbench.app
 sudo xattr -dr com.apple.quarantine /Applications/Postman.app
@@ -22,8 +18,6 @@ sudo xattr -dr com.apple.quarantine /Applications/Android\ Studio.app
 open /Applications/Android\ Studio.app
 sudo xattr -dr com.apple.quarantine /Applications/iTerm.app
 open /Applications/iTerm.app
-sudo xattr -dr com.apple.quarantine /Applications/PSequel.app
-open /Applications/PSequel.app
 sudo xattr -dr com.apple.quarantine /Applications/Cyberduck.app
 open /Applications/Cyberduck.app
 sudo xattr -dr com.apple.quarantine /Applications/meld.app
@@ -32,11 +26,14 @@ sudo xattr -dr com.apple.quarantine /Applications/docker.app
 open /Applications/docker.app
 sudo xattr -dr com.apple.quarantine /Applications/dbeaver.app
 open /Applications/dbeaver.app
+sudo xattr -dr com.apple.quarantine /Applications/figma.app
+open /Applications/figma.app
+sudo xattr -dr com.apple.quarantine /Applications/Karabiner-Elements.app
+open /Applications/Karabiner-Elements.app
 
 open /Applications/slack.app
 open /Applications/kakaotalk.app
-open /Applications/Karabiner-Elements.app
-open /Applications/figma.app
+open /Applications/line.app
 
 # install font
 cp -a ./fonts/. ~/Library/Fonts
@@ -57,9 +54,6 @@ chmod 755 ./vscode/install.sh
 chmod 755 ./iterm2/install.sh
 ./iterm2/install.sh
 
-# install lastet Ruby and Rails
-./rails/install.sh
-
 # install jekyll
 chmod 755 ./jekyll/install.sh
 ./jekyll/install.sh
@@ -67,10 +61,6 @@ chmod 755 ./jekyll/install.sh
 # install react-native
 chmod 755 ./react-native/install.sh
 ./react-native/install.sh
-
-# install python3
-chmod 755 ./python/install.sh
-./python/install.sh
 
 # install xcode
 chmod 755 ./xcode/install.sh
@@ -80,7 +70,7 @@ chmod 755 ./xcode/install.sh
 open /Applications/Google\ Chrome.app https://www.docker.com/products/docker-desktop
 
 # install fastlane
-sudo gem install fastlane -NV
+gem install fastlane -NV
 
 # configure redis
 chmod 755 ./redis/install.sh

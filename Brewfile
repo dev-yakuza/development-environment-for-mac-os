@@ -11,6 +11,7 @@ brew 'nvm'
 # brew "yarn"
 brew 'watchman'
 brew 'php@7.4'
+brew 'composer'
 # zsh is default in MacOS Catalina
 # brew "zsh"
 brew 'tree'

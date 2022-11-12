@@ -1,7 +1,5 @@
 # !/bin/bash
 
-sudo gem install bundler
-
 VERSION=3.0.2
 
 rbenv install ${VERSION}
