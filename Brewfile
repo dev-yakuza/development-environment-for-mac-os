@@ -40,7 +40,7 @@ mas 'Slack', id: 803_453_959
 
 cask 'ngrok'
 tap 'adoptopenjdk/openjdk'
-cask 'adoptopenjdk8'
+cask 'adoptopenjdk11'
 cask 'android-studio'
 cask 'mysqlworkbench'
 cask 'postman'
