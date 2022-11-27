@@ -1,6 +1,6 @@
 # !/bin/bash
 
-VERSION=3.0.2
+VERSION=3.1.2
 
 rbenv install ${VERSION}
 rbenv rehash
@@ -11,5 +11,5 @@ rbenv rehash
 gem install bundler
 rbenv rehash
 
-gem install rails
+gem install cocoapods
 rbenv rehash

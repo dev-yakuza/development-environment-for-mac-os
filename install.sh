@@ -38,6 +38,10 @@ open /Applications/line.app
 # install font
 cp -a ./fonts/. ~/Library/Fonts
 
+# Ruby
+chmod 755 ./ruby/install.sh
+./ruby/install.sh
+
 # Node
 chmod 755 ./node/install.sh
 ./node/install.sh
