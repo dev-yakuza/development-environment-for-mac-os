@@ -70,9 +70,6 @@ chmod 755 ./react-native/install.sh
 chmod 755 ./xcode/install.sh
 ./xcode/install.sh
 
-# download docker desktop
-open /Applications/Google\ Chrome.app https://www.docker.com/products/docker-desktop
-
 # install fastlane
 gem install fastlane -NV
 
