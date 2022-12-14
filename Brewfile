@@ -1,6 +1,10 @@
 # frozen_string_literal: true
 
 brew 'mas'
+
+tap 'adoptopenjdk/openjdk'
+cask 'adoptopenjdk11'
+
 brew 'git-flow'
 brew 'mysql@5.7'
 brew 'python@3.8'
@@ -39,8 +43,6 @@ mas 'KakaoTalk', id: 869_223_134
 mas 'Slack', id: 803_453_959
 
 cask 'ngrok'
-tap 'adoptopenjdk/openjdk'
-cask 'adoptopenjdk11'
 cask 'android-studio'
 cask 'mysqlworkbench'
 cask 'postman'
