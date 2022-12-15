@@ -10,7 +10,8 @@ brew 'pyenv-virtualenv'
 brew 'nvm'
 # brew "yarn"
 brew 'watchman'
-brew 'php@7.4'
+tap 'shivammathur/php'
+brew 'shivammathur/php/php@7.4', link: true
 brew 'composer'
 # zsh is default in MacOS Catalina
 # brew "zsh"

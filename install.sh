@@ -6,6 +6,14 @@
 # install via brew
 brew bundle --file=./Brewfile
 
+VERSION=3.1.2
+
+rbenv install ${VERSION}
+rbenv rehash
+
+rbenv global ${VERSION}
+rbenv rehash
+
 sudo xattr -dr com.apple.quarantine /Applications/MySQLWorkbench.app
 open /Applications/MySQLWorkbench.app
 sudo xattr -dr com.apple.quarantine /Applications/Postman.app
@@ -75,6 +83,7 @@ open /Applications/Google\ Chrome.app https://www.docker.com/products/docker-des
 
 # install fastlane
 gem install fastlane -NV
+rbenv rehash
 
 # configure redis
 chmod 755 ./redis/install.sh
