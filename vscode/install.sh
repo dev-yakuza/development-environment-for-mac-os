@@ -52,6 +52,7 @@ code --install-extension mrmlnc.vscode-remark
 code --install-extension flutterando.flutter-coverage
 code --install-extension unifiedjs.vscode-mdx
 code --install-extension ritwickdey.LiveServer
+code --install-extension hediet.vscode-drawio
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
