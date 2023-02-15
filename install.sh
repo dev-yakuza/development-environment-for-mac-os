@@ -20,6 +20,8 @@ sudo xattr -dr com.apple.quarantine /Applications/Postman.app
 open /Applications/Postman.app
 sudo xattr -dr com.apple.quarantine /Applications/Google\ Chrome.app
 open /Applications/Google\ Chrome.app
+sudo xattr -dr com.apple.quarantine /Applications/Chromium.app
+open /Applications/Chromium.app
 sudo xattr -dr com.apple.quarantine /Applications/firefox.app
 open /Applications/firefox.app
 sudo xattr -dr com.apple.quarantine /Applications/Android\ Studio.app
