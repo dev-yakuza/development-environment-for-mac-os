@@ -58,6 +58,10 @@
   "workbench.iconTheme": "vscode-icons",
   "terminal.integrated.rendererType": "dom",
   "editor.tabSize": 2,
+  "[python]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
+  },
   "mssql.connections": [
     {
       "server": "{{put-server-name-here}}",
