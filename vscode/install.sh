@@ -46,7 +46,6 @@ code --install-extension sleistner.vscode-fileutils
 code --install-extension hashicorp.terraform
 code --install-extension octref.vetur
 code --install-extension dsznajder.es7-react-js-snippets
-code --install-extension ms-vscode.powershell
 code --install-extension arjun.swagger-viewer
 code --install-extension mrmlnc.vscode-remark
 code --install-extension flutterando.flutter-coverage
@@ -54,6 +53,7 @@ code --install-extension unifiedjs.vscode-mdx
 code --install-extension ritwickdey.LiveServer
 code --install-extension hediet.vscode-drawio
 code --install-extension mathiasfrohlich.Kotlin
+code --install-extension GitHub.vscode-github-actions
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
