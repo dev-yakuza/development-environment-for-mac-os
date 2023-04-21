@@ -2,8 +2,7 @@
 
 brew 'mas'
 
-tap 'adoptopenjdk/openjdk'
-cask 'adoptopenjdk11'
+brew 'openjdk@17'
 
 brew 'git-flow'
 brew 'mysql@5.7'
