@@ -2,7 +2,7 @@
 
 brew 'mas'
 
-brew 'openjdk@17'
+brew 'jenv'
 
 brew 'git-flow'
 brew 'mysql@5.7'
