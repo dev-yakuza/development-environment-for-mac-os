@@ -4,6 +4,7 @@ brew 'mas'
 
 brew 'jenv'
 
+brew 'cocoapods'
 brew 'git-flow'
 brew 'mysql@5.7'
 brew 'python@3.8'
