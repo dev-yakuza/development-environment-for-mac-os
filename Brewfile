@@ -15,7 +15,7 @@ brew 'nvm'
 # brew "yarn"
 brew 'watchman'
 tap 'shivammathur/php'
-brew 'shivammathur/php/php@7.4', link: true
+brew 'shivammathur/php/php@7.2', link: true
 brew 'composer'
 # zsh is default in MacOS Catalina
 # brew "zsh"
