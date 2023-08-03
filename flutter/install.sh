@@ -1,4 +1,3 @@
-mkdir ~/development
-cd ~/development
-git clone https://github.com/flutter/flutter.git -b stable
+fvm install 3.10.6
+
 flutter doctor

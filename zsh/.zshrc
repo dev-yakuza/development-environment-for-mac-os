@@ -75,12 +75,12 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export CFLAGS=""
 RUBYOPT='-W:no-deprecated -W:no-experimental'
-alias bundler=/Users/$USER/.rbenv/shims/bundler
-alias ruby=/Users/$USER/.rbenv/shims/ruby
-alias bundle=/Users/$USER/.rbenv/shims/bundle
-alias gem=/Users/$USER/.rbenv/shims/gem
-alias rails=/Users/$USER/.rbenv/shims/rails
-alias rake=/Users/$USER/.rbenv/shims/rake
+alias bundler=$HOME/.rbenv/shims/bundler
+alias ruby=$HOME/.rbenv/shims/ruby
+alias bundle=$HOME/.rbenv/shims/bundle
+alias gem=$HOME/.rbenv/shims/gem
+alias rails=$HOME/.rbenv/shims/rails
+alias rake=$HOME/.rbenv/shims/rake
 
 source $ZSH/oh-my-zsh.sh
 
@@ -149,10 +149,10 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/$USER/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/$USER/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '$HOME/google-cloud-sdk/path.zsh.inc' ]; then . '$HOME/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/$USER/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/$USER/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f '$HOME/google-cloud-sdk/completion.zsh.inc' ]; then . '$HOME/google-cloud-sdk/completion.zsh.inc'; fi
 
 # postgresql
 export PGDATA='/usr/local/var/postgres'
@@ -168,7 +168,9 @@ export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # Flutter
-export PATH=$HOME/development/flutter/bin:$PATH
+export PATH="$PATH:$HOME/.pub-cache/bin"
+export PATH="$PATH:$HOME/fvm/default/bin"
+alias flutter="fvm flutter"
 
 # gcloud
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'

@@ -1,5 +1,4 @@
 {
-  "terminal.integrated.shell.osx": "/bin/zsh",
   "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
   "editor.fontFamily": "'D2Coding ligature'",
   "editor.fontLigatures": true,
@@ -24,7 +23,8 @@
     "**/.git/objects/**": true,
     "**/node_modules/**": true,
     "**/tmp": true,
-    "**/build": true
+    "**/build": true,
+    "**/.fvm": true
   },
   "files.trimTrailingWhitespace": true,
   "search.exclude": {
@@ -38,13 +38,13 @@
     "**/Pods": true,
     "**/*.xcodeproj": true,
     "**/*.xcworkspace": true,
-    "**/.meteor": true
+    "**/.meteor": true,
+    "**/.fvm": true
   },
   "editor.formatOnSave": true,
   "extensions.autoUpdate": true,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
-  "prettier.jsxBracketSameLine": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
@@ -53,39 +53,23 @@
     "editor.defaultFormatter": "unifiedjs.vscode-remark"
   },
   "editor.suggestSelection": "first",
-  "python.linting.pylintArgs": [
-    "--load-plugins=pylint_django"
-  ],
+  "python.linting.pylintArgs": ["--load-plugins=pylint_django"],
   "workbench.iconTheme": "vscode-icons",
-  "terminal.integrated.rendererType": "dom",
   "editor.tabSize": 2,
   "[python]": {
     "editor.insertSpaces": true,
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
+    "editor.formatOnType": true
   },
-  "mssql.connections": [
-    {
-      "server": "{{put-server-name-here}}",
-      "database": "{{put-database-name-here}}",
-      "user": "{{put-username-here}}",
-      "password": ""
-    }
-  ],
-  "cSpell.enableFiletypes": [
-    "!markdown"
-  ],
+  "cSpell.enableFiletypes": ["!markdown"],
   "python.languageServer": "Pylance",
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
-  "java.project.importHint": false,
-  "python.showStartPage": false,
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.rulers": [
-      80
-    ],
+    "editor.rulers": [80],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
@@ -93,7 +77,6 @@
     "editor.wordBasedSuggestions": false
   },
   "javascript.updateImportsOnFileMove.enabled": "never",
-  "dart.debugExternalLibraries": false,
   "dart.debugSdkLibraries": false,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -110,10 +93,7 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.userWords": [
-    "asdfasdfasdfasdf"
-  ],
-  "diffEditor.ignoreTrimWhitespace": false,
+  "cSpell.userWords": ["asdfasdfasdfasdf"],
   "notebook.cellToolbarLocation": {
     "default": "right",
     "jupyter-notebook": "left"
@@ -121,13 +101,17 @@
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
     "*": true,
-    "yaml": false,
     "plaintext": false,
-    "markdown": true
+    "markdown": true,
+    "scminput": false,
+    "yaml": true
   },
   "workbench.colorTheme": "Default Dark+",
-  "window.zoomLevel": 2,
   "redhat.telemetry.enabled": false,
   "swaggerViewer.previewInBrowser": true,
-  "workbench.editor.showTabs": true
+  "workbench.editor.showTabs": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.openRepositoryInParentFolders": "always",
+  "window.zoomLevel": 2,
+  "dart.flutterSdkPath": ".fvm/flutter_sdk",
 }
