@@ -40,6 +40,7 @@ brew 'goenv'
 brew 'golangci-lint'
 brew 'bundletool'
 brew 'snap'
+brew 'jq'
 
 mas 'LINE', id: 539_883_307
 mas 'KakaoTalk', id: 869_223_134
