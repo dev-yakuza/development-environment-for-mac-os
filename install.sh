@@ -1,7 +1,12 @@
 # !/bin/bash
 
+RED="\e[31m"
+END_COLOR="\e[0m"
+
 # install brew
+echo -e "${RED}Start installing brew ###########################################################${END_COLOR}"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+echo -e "${RED}End installing brew   ###########################################################${END_COLOR}"
 
 # install via brew
 brew bundle --file=./Brewfile
