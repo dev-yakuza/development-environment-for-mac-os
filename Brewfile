@@ -39,13 +39,11 @@ brew 'go'
 brew 'goenv'
 brew 'golangci-lint'
 brew 'bundletool'
-brew 'snap'
 brew 'jq'
 
 mas 'LINE', id: 539_883_307
 mas 'KakaoTalk', id: 869_223_134
 mas 'Slack', id: 803_453_959
-mas 'Snap', id: 418073146
 
 cask 'ngrok'
 cask 'android-studio'
