@@ -3,61 +3,25 @@
 RED="\e[31m"
 END_COLOR="\e[0m"
 
-# install brew
-echo -e "${RED}Start installing brew ###########################################################${END_COLOR}"
+echo -e "${RED}1. Install brew${END_COLOR}"
+echo -e "${RED}Start ###########################################################${END_COLOR}"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-echo -e "${RED}End installing brew   ###########################################################${END_COLOR}"
+echo -e "${RED}End #############################################################${END_COLOR}"
 
-# install via brew
+echo -e "${RED}2. Install apps by brew${END_COLOR}"
+echo -e "${RED}Start ###########################################################${END_COLOR}"
 brew bundle --file=./Brewfile
+echo -e "${RED}End #############################################################${END_COLOR}"
 
-VERSION=3.1.2
-
-rbenv install ${VERSION}
-rbenv rehash
-
-rbenv global ${VERSION}
-rbenv rehash
-
-sudo xattr -dr com.apple.quarantine /Applications/MySQLWorkbench.app
-open /Applications/MySQLWorkbench.app
-sudo xattr -dr com.apple.quarantine /Applications/Postman.app
-open /Applications/Postman.app
-sudo xattr -dr com.apple.quarantine /Applications/Google\ Chrome.app
-open /Applications/Google\ Chrome.app
-sudo xattr -dr com.apple.quarantine /Applications/Microsoft\ Edge.app
-open /Applications/Microsoft\ Edge.app
-sudo xattr -dr com.apple.quarantine /Applications/Chromium.app
-open /Applications/Chromium.app
-sudo xattr -dr com.apple.quarantine /Applications/firefox.app
-open /Applications/firefox.app
-sudo xattr -dr com.apple.quarantine /Applications/Android\ Studio.app
-open /Applications/Android\ Studio.app
-sudo xattr -dr com.apple.quarantine /Applications/iTerm.app
-open /Applications/iTerm.app
-sudo xattr -dr com.apple.quarantine /Applications/Cyberduck.app
-open /Applications/Cyberduck.app
-sudo xattr -dr com.apple.quarantine /Applications/meld.app
-open /Applications/meld.app
-sudo xattr -dr com.apple.quarantine /Applications/docker.app
-open /Applications/docker.app
-sudo xattr -dr com.apple.quarantine /Applications/dbeaver.app
-open /Applications/dbeaver.app
-sudo xattr -dr com.apple.quarantine /Applications/figma.app
-open /Applications/figma.app
-sudo xattr -dr com.apple.quarantine /Applications/Karabiner-Elements.app
-open /Applications/Karabiner-Elements.app
-
-open /Applications/slack.app
-open /Applications/kakaotalk.app
-open /Applications/line.app
+echo -e "${RED}3. Install Ruby${END_COLOR}"
+echo -e "${RED}Start ###########################################################${END_COLOR}"
+chmod 755 ./ruby/install.sh
+./ruby/install.sh
+echo -e "${RED}End #############################################################${END_COLOR}"
 
 # install font
 cp -a ./fonts/. ~/Library/Fonts
 
-# Ruby
-chmod 755 ./ruby/install.sh
-./ruby/install.sh
 
 # Node
 chmod 755 ./node/install.sh
@@ -121,3 +85,36 @@ git config core.ignorecase false
 
 # copy keybindings
 cp -R ./KeyBindings ~/Library/
+
+sudo xattr -dr com.apple.quarantine /Applications/MySQLWorkbench.app
+open /Applications/MySQLWorkbench.app
+sudo xattr -dr com.apple.quarantine /Applications/Postman.app
+open /Applications/Postman.app
+sudo xattr -dr com.apple.quarantine /Applications/Google\ Chrome.app
+open /Applications/Google\ Chrome.app
+sudo xattr -dr com.apple.quarantine /Applications/Microsoft\ Edge.app
+open /Applications/Microsoft\ Edge.app
+sudo xattr -dr com.apple.quarantine /Applications/Chromium.app
+open /Applications/Chromium.app
+sudo xattr -dr com.apple.quarantine /Applications/firefox.app
+open /Applications/firefox.app
+sudo xattr -dr com.apple.quarantine /Applications/Android\ Studio.app
+open /Applications/Android\ Studio.app
+sudo xattr -dr com.apple.quarantine /Applications/iTerm.app
+open /Applications/iTerm.app
+sudo xattr -dr com.apple.quarantine /Applications/Cyberduck.app
+open /Applications/Cyberduck.app
+sudo xattr -dr com.apple.quarantine /Applications/meld.app
+open /Applications/meld.app
+sudo xattr -dr com.apple.quarantine /Applications/docker.app
+open /Applications/docker.app
+sudo xattr -dr com.apple.quarantine /Applications/dbeaver.app
+open /Applications/dbeaver.app
+sudo xattr -dr com.apple.quarantine /Applications/figma.app
+open /Applications/figma.app
+sudo xattr -dr com.apple.quarantine /Applications/Karabiner-Elements.app
+open /Applications/Karabiner-Elements.app
+
+open /Applications/slack.app
+open /Applications/kakaotalk.app
+open /Applications/line.app
