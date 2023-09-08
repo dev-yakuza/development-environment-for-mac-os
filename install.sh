@@ -50,10 +50,10 @@ echo "4. Install Ruby"
 echo "Start ###########################################################"
 
 chmod 755 ./ruby/install.sh
-while ! ./ruby/install.sh
-do
-    sleep 10
-done
+./ruby/install.sh
+if [ $? -ne 0 ]; then
+  exit 1
+fi
 
 echo "End #############################################################"
 
@@ -62,10 +62,10 @@ echo "5. Install zsh"
 echo "Start ###########################################################"
 
 chmod 755 ./zsh/install.sh
-while ! ./zsh/install.sh
-do
-    sleep 10
-done
+./zsh/install.sh
+if [ $? -ne 0 ]; then
+  exit 1
+fi
 source ~/.zshrc
 
 echo "End #############################################################"
@@ -75,10 +75,10 @@ echo "6. Install iTerms2"
 echo "Start ###########################################################"
 
 chmod 755 ./iterm2/install.sh
-while ! ./iterm2/install.sh
-do
-    sleep 10
-done
+./iterm2/install.sh
+if [ $? -ne 0 ]; then
+  exit 1
+fi
 
 echo "End #############################################################"
 
@@ -87,10 +87,10 @@ echo "7. Install Node"
 echo "Start ###########################################################"
 
 chmod 755 ./node/install.sh
-while ! ./node/install.sh
-do
-    sleep 10
-done
+./node/install.sh
+if [ $? -ne 0 ]; then
+  exit 1
+fi
 
 echo "End #############################################################"
 
@@ -99,10 +99,10 @@ echo "8. Install VSCode"
 echo "Start ###########################################################"
 
 chmod 755 ./vscode/install.sh
-while ! ./vscode/install.sh
-do
-    sleep 10
-done
+./vscode/install.sh
+if [ $? -ne 0 ]; then
+  exit 1
+fi
 
 echo "End #############################################################"
 
@@ -111,10 +111,10 @@ echo "9. Install React Native"
 echo "Start ###########################################################"
 
 chmod 755 ./react-native/install.sh
-while ! ./react-native/install.sh
-do
-    sleep 10
-done
+./react-native/install.sh
+if [ $? -ne 0 ]; then
+  exit 1
+fi
 
 echo "End #############################################################"
 
@@ -123,10 +123,10 @@ echo "10. Install Flutter"
 echo "Start ###########################################################"
 
 chmod 755 ./flutter/install.sh
-while ! ./flutter/install.sh
-do
-    sleep 10
-done
+./flutter/install.sh
+if [ $? -ne 0 ]; then
+  exit 1
+fi
 
 echo "End #############################################################"
 
@@ -135,10 +135,10 @@ echo "11. Install Laravel"
 echo "Start ###########################################################"
 
 chmod 755 ./laravel/install.sh
-while ! ./laravel/install.sh
-do
-    sleep 10
-done
+./laravel/install.sh
+if [ $? -ne 0 ]; then
+  exit 1
+fi
 
 echo "End #############################################################"
 
@@ -147,10 +147,10 @@ echo "12. Install Golang"
 echo "Start ###########################################################"
 
 chmod 755 ./go/install.sh
-while ! ./go/install.sh
-do
-    sleep 10
-done
+./go/install.sh
+if [ $? -ne 0 ]; then
+  exit 1
+fi
 
 echo "End #############################################################"
 
@@ -159,10 +159,10 @@ echo "13. Install Jekyll"
 echo "Start ###########################################################"
 
 chmod 755 ./jekyll/install.sh
-while ! ./jekyll/install.sh
-do
-    sleep 10
-done
+./jekyll/install.sh
+if [ $? -ne 0 ]; then
+  exit 1
+fi
 
 echo "End #############################################################"
 
@@ -171,6 +171,9 @@ echo "14. Install Fastlane"
 echo "Start ###########################################################"
 
 gem install fastlane -NV
+if [ $? -ne 0 ]; then
+  exit 1
+fi
 rbenv rehash
 
 echo "End #############################################################"
@@ -181,6 +184,9 @@ echo "Start ###########################################################"
 
 chmod 755 ./xcode/install.sh
 ./xcode/install.sh
+if [ $? -ne 0 ]; then
+  exit 1
+fi
 
 echo "End #############################################################"
 
@@ -189,6 +195,9 @@ echo "Start ###########################################################"
 
 chmod 755 ./macos/dock.sh
 ./macos/dock.sh
+if [ $? -ne 0 ]; then
+  exit 1
+fi
 
 echo "End #############################################################"
 
@@ -197,8 +206,15 @@ echo "Start ###########################################################"
 
 chmod 755 ./macos/dock.sh
 ./macos/dock.sh
+if [ $? -ne 0 ]; then
+  exit 1
+fi
+
 chmod 755 ./macos/touchpad.sh
 ./macos/touchpad.sh
+if [ $? -ne 0 ]; then
+  exit 1
+fi
 
 echo "End #############################################################"
 
