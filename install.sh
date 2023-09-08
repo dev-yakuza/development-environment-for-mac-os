@@ -39,11 +39,6 @@ cp -R ./dbeaver/ /Users/${USER}/Library/DBeaverData/workspace6/General/.dbeaver/
 mkdir /Users/${USER}/Library/Application\ Support/Rectangle/
 cp ./rectangle/RectangleConfig.json /Users/${USER}/Library/Application\ Support/Rectangle/RectangleConfig.json
 
-cp ./macos/com.apple.driver.AppleBluetoothMultitouch.mouse.plist ~/Library/Preferences/com.apple.driver.AppleBluetoothMultitouch.mouse.plist
-cp ./macos/com.apple.driver.AppleBluetoothMultitouch.trackpad.plist ~/Library/Preferences/com.apple.driver.AppleBluetoothMultitouch.trackpad.plist
-cp ./macos/com.apple.driver.AppleHIDMouse.plist ~/Library/Preferences/com.apple.driver.AppleHIDMouse.plist
-cp ./macos/StandardKeyBinding.dict ~/System/Library/Frameworks/AppKit.framework/Resources/StandardKeyBinding.dict
-
 echo "End #############################################################"
 
 
