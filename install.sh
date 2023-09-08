@@ -41,6 +41,8 @@ cp -R ./dbeaver/ /Users/${USER}/Library/DBeaverData/workspace6/General/.dbeaver/
 mkdir /Users/${USER}/Library/Application\ Support/Rectangle/
 cp ./rectangle/RectangleConfig.json /Users/${USER}/Library/Application\ Support/Rectangle/RectangleConfig.json
 
+cp -R ./macos/ ~/Library/Preferences/
+
 echo -e "${RED}End #############################################################${END_COLOR}"
 
 
