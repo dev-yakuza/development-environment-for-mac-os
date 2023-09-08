@@ -1,29 +1,26 @@
 # !/bin/bash
 
-RED="\e[31m"
-END_COLOR="\e[0m"
-
-echo -e "${RED}1. Install brew${END_COLOR}"
-echo -e "${RED}Start ###########################################################${END_COLOR}"
+echo "1. Install brew"
+echo "Start ###########################################################"
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-echo -e "${RED}End #############################################################${END_COLOR}"
+echo "End #############################################################"
 
 
-echo -e "${RED}2. Install apps by brew${END_COLOR}"
-echo -e "${RED}Start ###########################################################${END_COLOR}"
+echo "2. Install apps by brew"
+echo "Start ###########################################################"
 
 while ! brew bundle --file=./Brewfile
 do
     sleep 10
 done
 
-echo -e "${RED}End #############################################################${END_COLOR}"
+echo "End #############################################################"
 
 
-echo -e "${RED}3. Environments${END_COLOR}"
-echo -e "${RED}Start ###########################################################${END_COLOR}"
+echo "3. Environments"
+echo "Start ###########################################################"
 
 cp -a ./fonts/. ~/Library/Fonts
 
@@ -46,11 +43,11 @@ cp ./macos/com.apple.driver.AppleBluetoothMultitouch.trackpad.plist ~/Library/Pr
 cp ./macos/com.apple.driver.AppleHIDMouse.plist ~/Library/Preferences/com.apple.driver.AppleHIDMouse.plist
 cp ./macos/StandardKeyBinding.dict ~/System/Library/Frameworks/AppKit.framework/Resources/StandardKeyBinding.dict
 
-echo -e "${RED}End #############################################################${END_COLOR}"
+echo "End #############################################################"
 
 
-echo -e "${RED}4. Install Ruby${END_COLOR}"
-echo -e "${RED}Start ###########################################################${END_COLOR}"
+echo "4. Install Ruby"
+echo "Start ###########################################################"
 
 chmod 755 ./ruby/install.sh
 while ! ./ruby/install.sh
@@ -58,11 +55,11 @@ do
     sleep 10
 done
 
-echo -e "${RED}End #############################################################${END_COLOR}"
+echo "End #############################################################"
 
 
-echo -e "${RED}5. Install zsh${END_COLOR}"
-echo -e "${RED}Start ###########################################################${END_COLOR}"
+echo "5. Install zsh"
+echo "Start ###########################################################"
 
 chmod 755 ./zsh/install.sh
 while ! ./zsh/install.sh
@@ -70,11 +67,11 @@ do
     sleep 10
 done
 
-echo -e "${RED}End #############################################################${END_COLOR}"
+echo "End #############################################################"
 
 
-echo -e "${RED}6. Install iTerms2${END_COLOR}"
-echo -e "${RED}Start ###########################################################${END_COLOR}"
+echo "6. Install iTerms2"
+echo "Start ###########################################################"
 
 chmod 755 ./iterm2/install.sh
 while ! ./iterm2/install.sh
@@ -82,11 +79,11 @@ do
     sleep 10
 done
 
-echo -e "${RED}End #############################################################${END_COLOR}"
+echo "End #############################################################"
 
 
-echo -e "${RED}7. Install VSCode${END_COLOR}"
-echo -e "${RED}Start ###########################################################${END_COLOR}"
+echo "7. Install VSCode"
+echo "Start ###########################################################"
 
 chmod 755 ./vscode/install.sh
 while ! ./vscode/install.sh
@@ -94,11 +91,11 @@ do
     sleep 10
 done
 
-echo -e "${RED}End #############################################################${END_COLOR}"
+echo "End #############################################################"
 
 
-echo -e "${RED}8. Install Node${END_COLOR}"
-echo -e "${RED}Start ###########################################################${END_COLOR}"
+echo "8. Install Node"
+echo "Start ###########################################################"
 
 chmod 755 ./node/install.sh
 while ! ./node/install.sh
@@ -106,11 +103,11 @@ do
     sleep 10
 done
 
-echo -e "${RED}End #############################################################${END_COLOR}"
+echo "End #############################################################"
 
 
-echo -e "${RED}9. Install React Native${END_COLOR}"
-echo -e "${RED}Start ###########################################################${END_COLOR}"
+echo "9. Install React Native"
+echo "Start ###########################################################"
 
 chmod 755 ./react-native/install.sh
 while ! ./react-native/install.sh
@@ -118,11 +115,11 @@ do
     sleep 10
 done
 
-echo -e "${RED}End #############################################################${END_COLOR}"
+echo "End #############################################################"
 
 
-echo -e "${RED}10. Install Flutter${END_COLOR}"
-echo -e "${RED}Start ###########################################################${END_COLOR}"
+echo "10. Install Flutter"
+echo "Start ###########################################################"
 
 chmod 755 ./flutter/install.sh
 while ! ./flutter/install.sh
@@ -130,11 +127,11 @@ do
     sleep 10
 done
 
-echo -e "${RED}End #############################################################${END_COLOR}"
+echo "End #############################################################"
 
 
-echo -e "${RED}11. Install Laravel${END_COLOR}"
-echo -e "${RED}Start ###########################################################${END_COLOR}"
+echo "11. Install Laravel"
+echo "Start ###########################################################"
 
 chmod 755 ./laravel/install.sh
 while ! ./laravel/install.sh
@@ -142,11 +139,11 @@ do
     sleep 10
 done
 
-echo -e "${RED}End #############################################################${END_COLOR}"
+echo "End #############################################################"
 
 
-echo -e "${RED}12. Install Golang${END_COLOR}"
-echo -e "${RED}Start ###########################################################${END_COLOR}"
+echo "12. Install Golang"
+echo "Start ###########################################################"
 
 chmod 755 ./go/install.sh
 while ! ./go/install.sh
@@ -154,11 +151,11 @@ do
     sleep 10
 done
 
-echo -e "${RED}End #############################################################${END_COLOR}"
+echo "End #############################################################"
 
 
-echo -e "${RED}13. Install Jekyll${END_COLOR}"
-echo -e "${RED}Start ###########################################################${END_COLOR}"
+echo "13. Install Jekyll"
+echo "Start ###########################################################"
 
 chmod 755 ./jekyll/install.sh
 while ! ./jekyll/install.sh
@@ -166,28 +163,28 @@ do
     sleep 10
 done
 
-echo -e "${RED}End #############################################################${END_COLOR}"
+echo "End #############################################################"
 
 
-echo -e "${RED}14. Install Fastlane${END_COLOR}"
-echo -e "${RED}Start ###########################################################${END_COLOR}"
+echo "14. Install Fastlane"
+echo "Start ###########################################################"
 
 gem install fastlane -NV
 rbenv rehash
 
-echo -e "${RED}End #############################################################${END_COLOR}"
+echo "End #############################################################"
 
 
-echo -e "${RED}15. Install Xcode${END_COLOR}"
-echo -e "${RED}Start ###########################################################${END_COLOR}"
+echo "15. Install Xcode"
+echo "Start ###########################################################"
 
 chmod 755 ./xcode/install.sh
 ./xcode/install.sh
 
-echo -e "${RED}End #############################################################${END_COLOR}"
+echo "End #############################################################"
 
-echo -e "${RED}16. Keep in Dock${END_COLOR}"
-echo -e "${RED}Start ###########################################################${END_COLOR}"
+echo "16. Keep in Dock"
+echo "Start ###########################################################"
 
 defaults write com.apple.dock persistent-apps -array
 sleep 10
@@ -216,7 +213,7 @@ done
 sleep 10
 killall Dock
 
-echo -e "${RED}End #############################################################${END_COLOR}"
+echo "End #############################################################"
 
 sudo xattr -dr com.apple.quarantine /Applications/Android\ Studio.app
 open /Applications/Android\ Studio.app
