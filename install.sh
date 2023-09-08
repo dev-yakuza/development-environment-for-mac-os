@@ -82,11 +82,11 @@ done
 echo "End #############################################################"
 
 
-echo "7. Install VSCode"
+echo "7. Install Node"
 echo "Start ###########################################################"
 
-chmod 755 ./vscode/install.sh
-while ! ./vscode/install.sh
+chmod 755 ./node/install.sh
+while ! ./node/install.sh
 do
     sleep 10
 done
@@ -94,11 +94,11 @@ done
 echo "End #############################################################"
 
 
-echo "8. Install Node"
+echo "8. Install VSCode"
 echo "Start ###########################################################"
 
-chmod 755 ./node/install.sh
-while ! ./node/install.sh
+chmod 755 ./vscode/install.sh
+while ! ./vscode/install.sh
 do
     sleep 10
 done
