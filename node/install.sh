@@ -4,7 +4,9 @@ source $(brew --prefix nvm)/nvm.sh
 # install latest node
 # nvm install node
 
-nvm install v12.16.1
+nvm install 14.17.5
+nvm install 20.3.0
+nvm alias default 20.3.0
 brew install yarn
 
 npm install --global git-open

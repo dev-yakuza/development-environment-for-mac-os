@@ -1,0 +1,289 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-18468e4e5c8-4519a21e5d849733": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "arabicwords",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/jeonghean.kim/projects/word_app/env/arabicwords/resource/data.db",
+				"url": "jdbc:sqlite:/Users/jeonghean.kim/projects/word_app/env/arabicwords/resource/data.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18468e5aa23-56fa9decc324c509": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "centerenglish",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/jeonghean.kim/projects/word_app/env/centerenglish/resource/data.db",
+				"url": "jdbc:sqlite:/Users/jeonghean.kim/projects/word_app/env/centerenglish/resource/data.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18468e60b92-1d2ed7128dea7d82": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "frenchwords",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/jeonghean.kim/projects/word_app/env/frenchwords/resource/data.db",
+				"url": "jdbc:sqlite:/Users/jeonghean.kim/projects/word_app/env/frenchwords/resource/data.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18468e6546a-4e1751870f1e05c8": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "germanwords",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/jeonghean.kim/projects/word_app/env/germanwords/resource/data.db",
+				"url": "jdbc:sqlite:/Users/jeonghean.kim/projects/word_app/env/germanwords/resource/data.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18468e6ab8d-26e55752c11a878f": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "hskwords",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/jeonghean.kim/projects/word_app/env/hskwords/resource/data.db",
+				"url": "jdbc:sqlite:/Users/jeonghean.kim/projects/word_app/env/hskwords/resource/data.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18468e6fd06-749c052027a9d9e6": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "hskwordsen",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/jeonghean.kim/projects/word_app/env/hskwordsen/resource/data.db",
+				"url": "jdbc:sqlite:/Users/jeonghean.kim/projects/word_app/env/hskwordsen/resource/data.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18468e74a51-132b8ef8a84de902": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "ildangongbu",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/jeonghean.kim/projects/word_app/env/ildangongbu/resource/data.db",
+				"url": "jdbc:sqlite:/Users/jeonghean.kim/projects/word_app/env/ildangongbu/resource/data.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18468e8c810-64e5be1993246b2": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "indonesianwords",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/jeonghean.kim/projects/word_app/env/indonesianwords/resource/data.db",
+				"url": "jdbc:sqlite:/Users/jeonghean.kim/projects/word_app/env/indonesianwords/resource/data.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18468e90c08-10cae2e0a4e51f31": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "japanesewordsen",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/jeonghean.kim/projects/word_app/env/japanesewordsen/resource/data.db",
+				"url": "jdbc:sqlite:/Users/jeonghean.kim/projects/word_app/env/japanesewordsen/resource/data.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18468e95105-721044ea1393d367": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "kantanbenkyo",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/jeonghean.kim/projects/word_app/env/kantanbenkyo/resource/data.db",
+				"url": "jdbc:sqlite:/Users/jeonghean.kim/projects/word_app/env/kantanbenkyo/resource/data.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18468e9b483-6824ab1f61c35c95": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "koreanwords",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/jeonghean.kim/projects/word_app/env/koreanwords/resource/data.db",
+				"url": "jdbc:sqlite:/Users/jeonghean.kim/projects/word_app/env/koreanwords/resource/data.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18468ea204b-43c24b866e82f4ee": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "koreanwordses",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/jeonghean.kim/projects/word_app/env/koreanwordses/resource/data.db",
+				"url": "jdbc:sqlite:/Users/jeonghean.kim/projects/word_app/env/koreanwordses/resource/data.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18468ea825c-eb9dafbf31637e7": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "koreanwordsfr",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/jeonghean.kim/projects/word_app/env/koreanwordsfr/resource/data.db",
+				"url": "jdbc:sqlite:/Users/jeonghean.kim/projects/word_app/env/koreanwordsfr/resource/data.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18468eac714-37e5700f0c7e1436": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "russianwords",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/jeonghean.kim/projects/word_app/env/russianwords/resource/data.db",
+				"url": "jdbc:sqlite:/Users/jeonghean.kim/projects/word_app/env/russianwords/resource/data.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18468eb13e4-18f6a3260af4a426": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "secondaryenglish",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/jeonghean.kim/projects/word_app/env/secondaryenglish/resource/data.db",
+				"url": "jdbc:sqlite:/Users/jeonghean.kim/projects/word_app/env/secondaryenglish/resource/data.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18468ebd927-5956d2bd817ea300": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "spanishwords",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/jeonghean.kim/projects/word_app/env/spanishwords/resource/data.db",
+				"url": "jdbc:sqlite:/Users/jeonghean.kim/projects/word_app/env/spanishwords/resource/data.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18468ec0bb9-4fa80378f300ec37": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "toeicwords",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/jeonghean.kim/projects/word_app/env/toeicwords/resource/data.db",
+				"url": "jdbc:sqlite:/Users/jeonghean.kim/projects/word_app/env/toeicwords/resource/data.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18468ec67b8-344b661d207e3518": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "toeicwordsjp",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/jeonghean.kim/projects/word_app/env/toeicwordsjp/resource/data.db",
+				"url": "jdbc:sqlite:/Users/jeonghean.kim/projects/word_app/env/toeicwordsjp/resource/data.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18468eccc8c-377899a4a48b61d": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "topik12",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/jeonghean.kim/projects/word_app/env/topik12/resource/data.db",
+				"url": "jdbc:sqlite:/Users/jeonghean.kim/projects/word_app/env/topik12/resource/data.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18468ed0f3c-275cabc13a41dc0e": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "topik34",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/jeonghean.kim/projects/word_app/env/topik34/resource/data.db",
+				"url": "jdbc:sqlite:/Users/jeonghean.kim/projects/word_app/env/topik34/resource/data.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18468ed5044-65d7b3e0864615af": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "topik56",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/jeonghean.kim/projects/word_app/env/topik56/resource/data.db",
+				"url": "jdbc:sqlite:/Users/jeonghean.kim/projects/word_app/env/topik56/resource/data.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}

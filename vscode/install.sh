@@ -19,7 +19,6 @@ code --install-extension shardulm94.trailing-spaces
 code --install-extension vscode-icons-team.vscode-icons
 code --install-extension johnuphoff.vscode-styled-sort
 code --install-extension bmewburn.vscode-intelephense-client
-code --install-extension onecentlin.laravel5-snippets
 code --install-extension onecentlin.laravel-blade
 code --install-extension ryannaddy.laravel-artisan
 code --install-extension dbaeumer.vscode-eslint
@@ -29,7 +28,6 @@ code --install-extension misogi.ruby-rubocop
 code --install-extension pnp.polacode
 code --install-extension editorconfig.editorconfig
 code --install-extension formulahendry.auto-rename-tag
-code --install-extension devzstudio.emoji-snippets
 code --install-extension eamodio.gitlens
 code --install-extension jebbs.plantuml
 code --install-extension mechatroner.rainbow-csv
