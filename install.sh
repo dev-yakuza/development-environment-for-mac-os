@@ -66,6 +66,7 @@ while ! ./zsh/install.sh
 do
     sleep 10
 done
+source ~/.zshrc
 
 echo "End #############################################################"
 

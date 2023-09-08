@@ -7,7 +7,6 @@ source $(brew --prefix nvm)/nvm.sh
 nvm install 14.17.5
 nvm install 20.3.0
 nvm alias default 20.3.0
-brew install yarn
 
 npm install --global git-open
 npm install -g create-react-app
