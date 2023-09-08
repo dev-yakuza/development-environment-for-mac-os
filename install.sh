@@ -36,6 +36,7 @@ mkdir ~/.config/
 mkdir ~/.config/karabiner/
 cp ./KeyBindings/karabiner.json ~/.config/karabiner/
 
+mkdir /Users/${USER}/Library/DBeaverData/workspace6/General/.dbeaver/
 cp -R ./dbeaver/ /Users/${USER}/Library/DBeaverData/workspace6/General/.dbeaver/
 
 mkdir /Users/${USER}/Library/Application\ Support/Rectangle/
