@@ -187,8 +187,18 @@ echo "End #############################################################"
 echo "16. Keep in Dock"
 echo "Start ###########################################################"
 
-chmod 755 ./dock/configuration.sh
-./dock/configuration.sh
+chmod 755 ./macos/dock.sh
+./macos/dock.sh
+
+echo "End #############################################################"
+
+echo "17. Congiguration for Mac"
+echo "Start ###########################################################"
+
+chmod 755 ./macos/dock.sh
+./macos/dock.sh
+chmod 755 ./macos/touchpad.sh
+./macos/touchpad.sh
 
 echo "End #############################################################"
 
