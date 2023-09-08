@@ -32,17 +32,16 @@ git config --global init.defaultBranch main
 git config core.ignorecase false
 
 cp ./KeyBindings/DefaultkeyBinding.dict ~/Library/DefaultkeyBinding.dict
-rm -rf ~/.config/
-mkdir ~/.config/
-mkdir ~/.config/karabiner/
+rm -rf ~/.config/karabiner/
+mkdir -p ~/.config/karabiner/
 cp ./KeyBindings/karabiner.json ~/.config/karabiner/
 
-rm -rf ~/Library/DBeaverData/workspace6/General/.dbeaver/
-mkdir ~/Library/DBeaverData/workspace6/General/.dbeaver/
+rm -rf ~/Library/DBeaverData/
+mkdir -p ~/Library/DBeaverData/workspace6/General/.dbeaver/
 cp -R ./dbeaver/ ~/Library/DBeaverData/workspace6/General/.dbeaver/
 
 rm -rf ~/Library/Application\ Support/Rectangle/
-mkdir ~/Library/Application\ Support/Rectangle/
+mkdir -p ~/Library/Application\ Support/Rectangle/
 cp ./rectangle/RectangleConfig.json ~/Library/Application\ Support/Rectangle/RectangleConfig.json
 
 echo "End #############################################################"
