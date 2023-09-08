@@ -33,7 +33,8 @@ chmod 755 ./screenshot/install.sh
 git config --global init.defaultBranch main
 git config core.ignorecase false
 
-cp -R ./KeyBindings ~/Library/
+cp ./KeyBindings/DefaultkeyBinding.dict ~/Library/DefaultkeyBinding.dict
+cp ./KeyBindings/karabiner.json ~/.config/karabiner/
 
 cp -R ./dbeaver/ /Users/${USER}/Library/DBeaverData/workspace6/General/.dbeaver/
 
