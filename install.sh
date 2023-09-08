@@ -32,6 +32,7 @@ git config --global init.defaultBranch main
 git config core.ignorecase false
 
 cp ./KeyBindings/DefaultkeyBinding.dict ~/Library/DefaultkeyBinding.dict
+mkdir ~/.config/
 mkdir ~/.config/karabiner/
 cp ./KeyBindings/karabiner.json ~/.config/karabiner/
 
