@@ -187,4 +187,13 @@ open /Applications/Android\ Studio.app
 
 echo "End #############################################################"
 
+echo "Please change wallpaper"
+echo "Right click on the desktop -> Change Wallpaper... -> Select Black color"
+
+echo "Please change keyboard shortcuts by yourself."
+echo "Oepn System Settings -> Keyboard -> Keyboard Shortcuts... -> Input Sources -> Select the previous input source -> Change to Command + Space"
+echo "Oepn System Settings -> Keyboard -> Keyboard Shortcuts... -> Input Sources -> Select Next source input menu -> Change to Command + Shift + Space"
+echo "Oepn System Settings -> Keyboard -> Keyboard Shortcuts... -> Spotlight -> Show Spotlight search -> Change to Option + Space"
+echo "Oepn System Settings -> Keyboard -> Keyboard Shortcuts... -> Spotlight -> Show Finder search window -> Change to Command + Option + Space"
+
 sudo pmset -c disablesleep 0
