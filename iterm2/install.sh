@@ -1,5 +1,7 @@
 # !/bin/bash
 
-rm -rf ~/Library/Application\ Support/iTerm2/DynamicProfiles/
-mkdir -p ~/Library/Application\ Support/iTerm2/DynamicProfiles/
-cp ./iterm2/com.googlecode.iterm2.plist ~/Library/Application\ Support/iTerm2/DynamicProfiles/
+# Specify the preferences directory
+defaults write com.googlecode.iterm2 PrefsCustomFolder -string "~/projects/iterm2/"
+
+# Tell iTerm2 to use the custom preferences in the directory
+defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
