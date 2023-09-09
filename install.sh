@@ -1,6 +1,4 @@
 # !/bin/bash
-set -e
-
 echo "Install brew"
 echo "Start ###########################################################"
 
@@ -52,21 +50,24 @@ echo "Start ###########################################################"
 
 chmod 755 ./ruby/install.sh
 ./ruby/install.sh
-if [ $? -ne 0 ]; then
-  exit 1
-fi
 
 echo "End #############################################################"
 
+
+echo "Install zsh"
+echo "Start ###########################################################"
+
+chmod 755 ./zsh/install.sh
+./zsh/install.sh
+source ~/.zshrc
+
+echo "End #############################################################"
 
 echo "Install iTerms2"
 echo "Start ###########################################################"
 
 chmod 755 ./iterm2/install.sh
 ./iterm2/install.sh
-if [ $? -ne 0 ]; then
-  exit 1
-fi
 
 echo "End #############################################################"
 
@@ -76,9 +77,6 @@ echo "Start ###########################################################"
 
 chmod 755 ./node/install.sh
 ./node/install.sh
-if [ $? -ne 0 ]; then
-  exit 1
-fi
 
 echo "End #############################################################"
 
@@ -88,9 +86,6 @@ echo "Start ###########################################################"
 
 chmod 755 ./vscode/install.sh
 ./vscode/install.sh
-if [ $? -ne 0 ]; then
-  exit 1
-fi
 
 echo "End #############################################################"
 
@@ -100,9 +95,6 @@ echo "Start ###########################################################"
 
 chmod 755 ./react-native/install.sh
 ./react-native/install.sh
-if [ $? -ne 0 ]; then
-  exit 1
-fi
 
 echo "End #############################################################"
 
@@ -112,9 +104,6 @@ echo "Start ###########################################################"
 
 chmod 755 ./flutter/install.sh
 ./flutter/install.sh
-if [ $? -ne 0 ]; then
-  exit 1
-fi
 
 echo "End #############################################################"
 
@@ -124,9 +113,6 @@ echo "Start ###########################################################"
 
 chmod 755 ./laravel/install.sh
 ./laravel/install.sh
-if [ $? -ne 0 ]; then
-  exit 1
-fi
 
 echo "End #############################################################"
 
@@ -136,9 +122,6 @@ echo "Start ###########################################################"
 
 chmod 755 ./go/install.sh
 ./go/install.sh
-if [ $? -ne 0 ]; then
-  exit 1
-fi
 
 echo "End #############################################################"
 
@@ -148,9 +131,6 @@ echo "Start ###########################################################"
 
 chmod 755 ./jekyll/install.sh
 ./jekyll/install.sh
-if [ $? -ne 0 ]; then
-  exit 1
-fi
 
 echo "End #############################################################"
 
@@ -159,9 +139,6 @@ echo "Install Fastlane"
 echo "Start ###########################################################"
 
 gem install fastlane -NV
-if [ $? -ne 0 ]; then
-  exit 1
-fi
 rbenv rehash
 
 echo "End #############################################################"
@@ -172,9 +149,6 @@ echo "Start ###########################################################"
 
 chmod 755 ./xcode/install.sh
 ./xcode/install.sh
-if [ $? -ne 0 ]; then
-  exit 1
-fi
 
 echo "End #############################################################"
 
@@ -183,9 +157,6 @@ echo "Start ###########################################################"
 
 chmod 755 ./macos/dock.sh
 ./macos/dock.sh
-if [ $? -ne 0 ]; then
-  exit 1
-fi
 
 echo "End #############################################################"
 
@@ -194,15 +165,9 @@ echo "Start ###########################################################"
 
 chmod 755 ./macos/dock.sh
 ./macos/dock.sh
-if [ $? -ne 0 ]; then
-  exit 1
-fi
 
 chmod 755 ./macos/touchpad.sh
 ./macos/touchpad.sh
-if [ $? -ne 0 ]; then
-  exit 1
-fi
 
 echo "End #############################################################"
 
@@ -218,14 +183,5 @@ open /Applications/Rectangle.app
 
 sudo xattr -dr com.apple.quarantine /Applications/Android\ Studio.app
 open /Applications/Android\ Studio.app
-
-echo "End #############################################################"
-
-echo "Install zsh"
-echo "Start ###########################################################"
-
-chmod 755 ./zsh/install.sh
-./zsh/install.sh
-source ~/.zshrc
 
 echo "End #############################################################"
