@@ -66,7 +66,7 @@ echo "Install iTerms2"
 echo "Start ###########################################################"
 
 chmod 755 ./iterm2/install.sh
-./iterm2/install.sh
+zsh ./iterm2/install.sh
 
 echo "End #############################################################"
 
@@ -75,7 +75,7 @@ echo "Install Node"
 echo "Start ###########################################################"
 
 chmod 755 ./node/install.sh
-./node/install.sh
+zsh ./node/install.sh
 
 echo "End #############################################################"
 
@@ -84,7 +84,7 @@ echo "Install VSCode"
 echo "Start ###########################################################"
 
 chmod 755 ./vscode/install.sh
-./vscode/install.sh
+zsh ./vscode/install.sh
 
 echo "End #############################################################"
 
@@ -93,7 +93,7 @@ echo "Install React Native"
 echo "Start ###########################################################"
 
 chmod 755 ./react-native/install.sh
-./react-native/install.sh
+zsh ./react-native/install.sh
 
 echo "End #############################################################"
 
@@ -102,7 +102,7 @@ echo "Install Flutter"
 echo "Start ###########################################################"
 
 chmod 755 ./flutter/install.sh
-./flutter/install.sh
+zsh ./flutter/install.sh
 
 echo "End #############################################################"
 
@@ -111,7 +111,7 @@ echo "Install Laravel"
 echo "Start ###########################################################"
 
 chmod 755 ./laravel/install.sh
-./laravel/install.sh
+zsh ./laravel/install.sh
 
 echo "End #############################################################"
 
@@ -120,7 +120,7 @@ echo "Install Golang"
 echo "Start ###########################################################"
 
 chmod 755 ./go/install.sh
-./go/install.sh
+zsh ./go/install.sh
 
 echo "End #############################################################"
 
@@ -129,7 +129,7 @@ echo "Install Jekyll"
 echo "Start ###########################################################"
 
 chmod 755 ./jekyll/install.sh
-./jekyll/install.sh
+zsh ./jekyll/install.sh
 
 echo "End #############################################################"
 
@@ -147,7 +147,7 @@ echo "Install Xcode"
 echo "Start ###########################################################"
 
 chmod 755 ./xcode/install.sh
-./xcode/install.sh
+zsh ./xcode/install.sh
 
 echo "End #############################################################"
 
@@ -163,10 +163,10 @@ echo "Congiguration for Mac"
 echo "Start ###########################################################"
 
 chmod 755 ./macos/dock.sh
-./macos/dock.sh
+zsh ./macos/dock.sh
 
 chmod 755 ./macos/touchpad.sh
-./macos/touchpad.sh
+zsh ./macos/touchpad.sh
 
 echo "End #############################################################"
 
