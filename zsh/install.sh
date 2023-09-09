@@ -10,7 +10,5 @@ cp ./zsh/.zshrc ~/.zshrc
 git clone https://github.com/romkatv/powerlevel10k.git /Users/$USER/.oh-my-zsh/themes/powerlevel10k
 
 zsh
-source ~/.zshrc
-
 chsh -s /bin/zsh
 source ~/.zshrc

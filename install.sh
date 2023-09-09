@@ -1,5 +1,7 @@
 # !/bin/bash
-echo "1. Install brew"
+set -e
+
+echo "Install brew"
 echo "Start ###########################################################"
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -7,7 +9,7 @@ echo "Start ###########################################################"
 echo "End #############################################################"
 
 
-echo "2. Install apps by brew"
+echo "Install apps by brew"
 echo "Start ###########################################################"
 
 while ! brew bundle --file=./Brewfile
@@ -18,7 +20,7 @@ done
 echo "End #############################################################"
 
 
-echo "3. Environments"
+echo "Environments"
 echo "Start ###########################################################"
 
 cp -a ./fonts/. ~/Library/Fonts
@@ -45,7 +47,7 @@ cp ./rectangle/RectangleConfig.json ~/Library/Application\ Support/Rectangle/Rec
 echo "End #############################################################"
 
 
-echo "4. Install Ruby"
+echo "Install Ruby"
 echo "Start ###########################################################"
 
 chmod 755 ./ruby/install.sh
@@ -57,20 +59,7 @@ fi
 echo "End #############################################################"
 
 
-echo "5. Install zsh"
-echo "Start ###########################################################"
-
-chmod 755 ./zsh/install.sh
-./zsh/install.sh
-source ~/.zshrc
-
-echo "End #############################################################"
-
-
-set -e
-
-
-echo "6. Install iTerms2"
+echo "Install iTerms2"
 echo "Start ###########################################################"
 
 chmod 755 ./iterm2/install.sh
@@ -82,7 +71,7 @@ fi
 echo "End #############################################################"
 
 
-echo "7. Install Node"
+echo "Install Node"
 echo "Start ###########################################################"
 
 chmod 755 ./node/install.sh
@@ -94,7 +83,7 @@ fi
 echo "End #############################################################"
 
 
-echo "8. Install VSCode"
+echo "Install VSCode"
 echo "Start ###########################################################"
 
 chmod 755 ./vscode/install.sh
@@ -106,7 +95,7 @@ fi
 echo "End #############################################################"
 
 
-echo "9. Install React Native"
+echo "Install React Native"
 echo "Start ###########################################################"
 
 chmod 755 ./react-native/install.sh
@@ -118,7 +107,7 @@ fi
 echo "End #############################################################"
 
 
-echo "10. Install Flutter"
+echo "Install Flutter"
 echo "Start ###########################################################"
 
 chmod 755 ./flutter/install.sh
@@ -130,7 +119,7 @@ fi
 echo "End #############################################################"
 
 
-echo "11. Install Laravel"
+echo "Install Laravel"
 echo "Start ###########################################################"
 
 chmod 755 ./laravel/install.sh
@@ -142,7 +131,7 @@ fi
 echo "End #############################################################"
 
 
-echo "12. Install Golang"
+echo "Install Golang"
 echo "Start ###########################################################"
 
 chmod 755 ./go/install.sh
@@ -154,7 +143,7 @@ fi
 echo "End #############################################################"
 
 
-echo "13. Install Jekyll"
+echo "Install Jekyll"
 echo "Start ###########################################################"
 
 chmod 755 ./jekyll/install.sh
@@ -166,7 +155,7 @@ fi
 echo "End #############################################################"
 
 
-echo "14. Install Fastlane"
+echo "Install Fastlane"
 echo "Start ###########################################################"
 
 gem install fastlane -NV
@@ -178,7 +167,7 @@ rbenv rehash
 echo "End #############################################################"
 
 
-echo "15. Install Xcode"
+echo "Install Xcode"
 echo "Start ###########################################################"
 
 chmod 755 ./xcode/install.sh
@@ -189,7 +178,7 @@ fi
 
 echo "End #############################################################"
 
-echo "16. Keep in Dock"
+echo "Keep in Dock"
 echo "Start ###########################################################"
 
 chmod 755 ./macos/dock.sh
@@ -200,7 +189,7 @@ fi
 
 echo "End #############################################################"
 
-echo "17. Congiguration for Mac"
+echo "Congiguration for Mac"
 echo "Start ###########################################################"
 
 chmod 755 ./macos/dock.sh
@@ -217,6 +206,10 @@ fi
 
 echo "End #############################################################"
 
+
+echo "Open app for settings"
+echo "Start ###########################################################"
+
 sudo xattr -dr com.apple.quarantine /Applications/Karabiner-Elements.app
 open /Applications/Karabiner-Elements.app
 
@@ -225,3 +218,14 @@ open /Applications/Rectangle.app
 
 sudo xattr -dr com.apple.quarantine /Applications/Android\ Studio.app
 open /Applications/Android\ Studio.app
+
+echo "End #############################################################"
+
+echo "Install zsh"
+echo "Start ###########################################################"
+
+chmod 755 ./zsh/install.sh
+./zsh/install.sh
+source ~/.zshrc
+
+echo "End #############################################################"
