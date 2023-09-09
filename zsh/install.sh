@@ -9,6 +9,5 @@ cp ./zsh/.zshrc ~/.zshrc
 # install zsh theme
 git clone https://github.com/romkatv/powerlevel10k.git /Users/$USER/.oh-my-zsh/themes/powerlevel10k
 
-zsh
 chsh -s /bin/zsh
 source ~/.zshrc
