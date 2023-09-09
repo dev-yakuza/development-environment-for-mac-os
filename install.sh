@@ -1,4 +1,6 @@
 # !/bin/bash
+sudo pmset -c disablesleep 1
+
 echo "Install brew"
 echo "Start ###########################################################"
 
@@ -184,3 +186,5 @@ sudo xattr -dr com.apple.quarantine /Applications/Android\ Studio.app
 open /Applications/Android\ Studio.app
 
 echo "End #############################################################"
+
+sudo pmset -c disablesleep 0
