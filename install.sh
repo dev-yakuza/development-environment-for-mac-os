@@ -1,6 +1,4 @@
 # !/bin/bash
-set -e
-
 echo "1. Install brew"
 echo "Start ###########################################################"
 
@@ -67,6 +65,9 @@ chmod 755 ./zsh/install.sh
 source ~/.zshrc
 
 echo "End #############################################################"
+
+
+set -e
 
 
 echo "6. Install iTerms2"
