@@ -43,7 +43,6 @@ code --install-extension hashicorp.terraform
 code --install-extension octref.vetur
 code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension arjun.swagger-viewer
-code --install-extension unifiedjs.vscode-remark
 code --install-extension flutterando.flutter-coverage
 code --install-extension unifiedjs.vscode-mdx
 code --install-extension ritwickdey.LiveServer

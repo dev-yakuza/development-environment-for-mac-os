@@ -48,10 +48,6 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "[markdown]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": "unifiedjs.vscode-remark"
-  },
   "editor.suggestSelection": "first",
   "python.linting.pylintArgs": ["--load-plugins=pylint_django"],
   "workbench.iconTheme": "vscode-icons",
