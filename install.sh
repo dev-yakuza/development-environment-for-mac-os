@@ -198,8 +198,6 @@ echo "Oepn System Settings -> Keyboard -> Keyboard Shortcuts... -> Spotlight -> 
 
 echo "Optimize."
 echo "Oepn System Settings -> Accessibility -> Enable 'Reduce motion' and 'Reduce transparency'"
-echo "Oepn System Settings -> Docker & Menu Bar -> Change 'Minimize windows using' to 'Scale effect'"
-echo "Oepn System Settings -> Docker & Menu Bar -> Disable 'Automatically hide and show the Dock'"
 echo "Oepn System Settings -> Spotlight -> Disable all without Applications"
 
 sudo pmset -c disablesleep 0

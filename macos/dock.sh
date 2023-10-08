@@ -7,7 +7,7 @@ apps=(
   "/System/Applications/Launchpad.app"
   "/Applications/Google Chrome.app"
   "/Applications/Firefox.app"
-  "/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app"
+  "/Applications/Safari.app"
   "/Applications/Microsoft Edge.app"
   "/Applications/iTerm.app"
   "/Applications/Visual Studio Code.app"
@@ -23,7 +23,12 @@ apps=(
   "/System/Library/CoreServices/Applications/Screen Sharing.app"
 )
 for app in "${apps[@]}"; do
-    defaults write com.apple.dock persistent-apps -array-add "<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key><string>${app}</string><key>_CFURLStringType</key><integer>0</integer></dict></dict></dict>"
+  defaults write com.apple.dock persistent-apps -array-add "<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key><string>${app}</string><key>_CFURLStringType</key><integer>0</integer></dict></dict></dict>"
+  sleep 10
 done
+
+defaults write com.apple.dock mineffect -string scale
+defaults write com.apple.dock autohide -bool false
+
 sleep 10
 killall Dock
