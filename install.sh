@@ -196,4 +196,10 @@ echo "Oepn System Settings -> Keyboard -> Keyboard Shortcuts... -> Input Sources
 echo "Oepn System Settings -> Keyboard -> Keyboard Shortcuts... -> Spotlight -> Show Spotlight search -> Change to Option + Space"
 echo "Oepn System Settings -> Keyboard -> Keyboard Shortcuts... -> Spotlight -> Show Finder search window -> Change to Command + Option + Space"
 
+echo "Optimize."
+echo "Oepn System Settings -> Accessibility -> Enable 'Reduce motion' and 'Reduce transparency'"
+echo "Oepn System Settings -> Docker & Menu Bar -> Change 'Minimize windows using' to 'Scale effect'"
+echo "Oepn System Settings -> Docker & Menu Bar -> Disable 'Automatically hide and show the Dock'"
+echo "Oepn System Settings -> Spotlight -> Disable all without Applications"
+
 sudo pmset -c disablesleep 0
