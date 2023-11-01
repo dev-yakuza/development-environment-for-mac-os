@@ -6,16 +6,18 @@ echo "Start ###########################################################"
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 echo "End #############################################################"
 
 
 echo "Install apps by brew"
 echo "Start ###########################################################"
 
-while ! brew bundle --file=./Brewfile
-do
-    sleep 10
-done
+brew bundle --file=./Brewfile
+# Some apps not installed at the first time
+brew bundle --file=./Brewfile
 
 echo "End #############################################################"
 
