@@ -1,4 +1,14 @@
 # !/bin/bash
+
+while true; do
+    read -p "Do you login App store? (y/n)" yn
+    case $yn in
+        [Yy]* ) break;;
+        [Nn]* ) echo "Please login App store first."; exit;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
+
 sudo pmset -c disablesleep 1
 
 echo "Install brew"
