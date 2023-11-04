@@ -1,4 +1,4 @@
-fvm install 3.13.1
-fvm global 3.13.1
+fvm install 3.13.9
+fvm global 3.13.9
 
 source ~/.zshrc
