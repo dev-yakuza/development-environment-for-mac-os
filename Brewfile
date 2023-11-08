@@ -35,6 +35,8 @@ brew 'goenv'
 brew 'golangci-lint'
 brew 'bundletool'
 brew 'jq'
+# https://github.com/nuxt/image/issues/204#issuecomment-1705077355
+brew 'vips'
 
 mas 'LINE', id: 539_883_307
 mas 'KakaoTalk', id: 869_223_134
