@@ -50,6 +50,7 @@ code --install-extension hediet.vscode-drawio
 code --install-extension mathiasfrohlich.Kotlin
 code --install-extension GitHub.vscode-github-actions
 code --install-extension huntertran.auto-markdown-toc
+code --install-extension mhutchie.git-graph
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
