@@ -105,9 +105,12 @@
   "workbench.colorTheme": "Default Dark+",
   "redhat.telemetry.enabled": false,
   "swaggerViewer.previewInBrowser": true,
-  "workbench.editor.showTabs": true,
+  "workbench.editor.showTabs": "multiple",
   "security.workspace.trust.untrustedFiles": "open",
   "git.openRepositoryInParentFolders": "always",
   "window.zoomLevel": 2,
   "dart.flutterSdkPath": ".fvm/flutter_sdk",
+  "git-blame.config.logClickUrls": {},
+  "git-blame.config.showBlameInline": false,
+  "git-blame.gitWebUrl": "\"\""
 }
