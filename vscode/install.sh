@@ -28,7 +28,6 @@ code --install-extension misogi.ruby-rubocop
 code --install-extension pnp.polacode
 code --install-extension editorconfig.editorconfig
 code --install-extension formulahendry.auto-rename-tag
-code --install-extension eamodio.gitlens
 code --install-extension jebbs.plantuml
 code --install-extension mechatroner.rainbow-csv
 code --install-extension ms-azuretools.vscode-docker
@@ -51,6 +50,7 @@ code --install-extension mathiasfrohlich.Kotlin
 code --install-extension GitHub.vscode-github-actions
 code --install-extension huntertran.auto-markdown-toc
 code --install-extension mhutchie.git-graph
+code --install-extension solomonkinard.git-blame
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
