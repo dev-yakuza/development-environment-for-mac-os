@@ -51,6 +51,7 @@ code --install-extension GitHub.vscode-github-actions
 code --install-extension huntertran.auto-markdown-toc
 code --install-extension mhutchie.git-graph
 code --install-extension solomonkinard.git-blame
+code --install-extension DigitalBrainstem.javascript-ejs-support
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
