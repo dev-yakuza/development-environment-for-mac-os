@@ -46,10 +46,9 @@
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll": true
   },
   "editor.suggestSelection": "first",
-  "python.linting.pylintArgs": ["--load-plugins=pylint_django"],
   "workbench.iconTheme": "vscode-icons",
   "editor.tabSize": 2,
   "[python]": {
@@ -73,7 +72,6 @@
     "editor.wordBasedSuggestions": false
   },
   "javascript.updateImportsOnFileMove.enabled": "never",
-  "dart.debugSdkLibraries": false,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -109,8 +107,13 @@
   "security.workspace.trust.untrustedFiles": "open",
   "git.openRepositoryInParentFolders": "always",
   "window.zoomLevel": 2,
+  "dart.debugSdkLibraries": false,
   "dart.flutterSdkPath": ".fvm/flutter_sdk",
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
   "git-blame.config.logClickUrls": {},
   "git-blame.config.showBlameInline": false,
-  "git-blame.gitWebUrl": "\"\""
+  "git-blame.gitWebUrl": "\"\"",
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "diffEditor.useInlineViewWhenSpaceIsLimited": false
 }
