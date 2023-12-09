@@ -1,4 +1,6 @@
-fvm install 3.13.9
-fvm global 3.13.9
+fvm install 3.16.3
+fvm global 3.16.3
 
 source ~/.zshrc
+
+flutter config --no-analytics
