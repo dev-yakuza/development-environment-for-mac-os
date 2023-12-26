@@ -43,7 +43,8 @@ chmod 755 ./screenshot/install.sh
 git config --global init.defaultBranch main
 git config core.ignorecase false
 
-cp ./KeyBindings/DefaultkeyBinding.dict ~/Library/DefaultkeyBinding.dict
+mkdir ~/Library/KeyBindings
+cp ./KeyBindings/DefaultkeyBinding.dict ~/Library/KeyBindings/DefaultkeyBinding.dict
 rm -rf ~/.config/karabiner/
 mkdir -p ~/.config/karabiner/
 cp ./KeyBindings/karabiner.json ~/.config/karabiner/
