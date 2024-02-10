@@ -22,6 +22,7 @@ code --install-extension bmewburn.vscode-intelephense-client
 code --install-extension onecentlin.laravel-blade
 code --install-extension ryannaddy.laravel-artisan
 code --install-extension dbaeumer.vscode-eslint
+code --install-extension stylelint.vscode-stylelint
 code --install-extension rebornix.ruby
 code --install-extension kaiwood.endwise
 code --install-extension misogi.ruby-rubocop
