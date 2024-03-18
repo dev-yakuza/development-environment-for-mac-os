@@ -35,6 +35,8 @@ brew 'goenv'
 brew 'golangci-lint'
 brew 'bundletool'
 brew 'jq'
+brew 'ffmpeg'
+brew 'youtube-dl'
 
 mas 'LINE', id: 539_883_307
 mas 'KakaoTalk', id: 869_223_134
