@@ -54,6 +54,7 @@ code --install-extension mhutchie.git-graph
 code --install-extension solomonkinard.git-blame
 code --install-extension DigitalBrainstem.javascript-ejs-support
 code --install-extension vscjava.vscode-gradle
+code --install-extension ms-playwright.playwright
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
