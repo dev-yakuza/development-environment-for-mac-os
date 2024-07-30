@@ -46,7 +46,7 @@
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": "explicit"
   },
   "editor.suggestSelection": "first",
   "workbench.iconTheme": "vscode-icons",
@@ -69,7 +69,7 @@
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false
+    "editor.wordBasedSuggestions": "off"
   },
   "javascript.updateImportsOnFileMove.enabled": "never",
   "[typescriptreact]": {
@@ -107,17 +107,24 @@
   "security.workspace.trust.untrustedFiles": "open",
   "git.openRepositoryInParentFolders": "always",
   "window.zoomLevel": 2,
-  "dart.debugSdkLibraries": false,
+  "dart.debugSdkLibraries": true,
   "dart.flutterSdkPath": ".fvm/flutter_sdk",
   "dart.previewFlutterUiGuides": true,
   "dart.previewFlutterUiGuidesCustomTracking": true,
   "git-blame.config.logClickUrls": {},
   "git-blame.config.showBlameInline": false,
   "git-blame.gitWebUrl": "\"\"",
-  "diffEditor.hideUnchangedRegions.enabled": true,
   "diffEditor.useInlineViewWhenSpaceIsLimited": false,
+  "diffEditor.ignoreTrimWhitespace": false,
   // For Monorepo ESLint
-  "eslint.workingDirectories": [
-    { "mode": "auto" }
-  ]
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "powermode.enabled": true,
+  "powermode.presets": "simple-rift",
+  "powermode.combo.location": "statusbar",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "dart.debugExternalPackageLibraries": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true
 }
