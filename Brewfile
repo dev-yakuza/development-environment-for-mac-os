@@ -36,7 +36,7 @@ brew 'golangci-lint'
 brew 'bundletool'
 brew 'jq'
 brew 'ffmpeg'
-brew 'youtube-dl'
+brew 'yt-dlp'
 brew 'logrotate'
 
 mas 'LINE', id: 539_883_307
