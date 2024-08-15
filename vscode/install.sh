@@ -55,6 +55,11 @@ code --install-extension solomonkinard.git-blame
 code --install-extension DigitalBrainstem.javascript-ejs-support
 code --install-extension vscjava.vscode-gradle
 code --install-extension ms-playwright.playwright
+code --install-extension pranaygp.vscode-css-peek
+code --install-extension oderwat.indent-rainbow
+code --install-extension ecmel.vscode-html-css
+code --install-extension Cardinal90.multi-cursor-case-preserve
+code --install-extension wayou.vscode-todo-highlight
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
