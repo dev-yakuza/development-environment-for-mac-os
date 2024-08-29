@@ -88,6 +88,62 @@
                 "type": "basic"
               }
             ]
+          },
+          {
+            "description": "Change Caps Lock + U/O to Page Up/Down",
+            "manipulators": [
+              {
+                "from": { "key_code": "caps_lock" },
+                "to": [
+                  {
+                    "set_variable": {
+                      "name": "caps_arrows_mode",
+                      "value": 1
+                    }
+                  }
+                ],
+                "to_after_key_up": [
+                  {
+                    "set_variable": {
+                      "name": "caps_arrows_mode",
+                      "value": 0
+                    }
+                  }
+                ],
+                "to_if_alone": [{ "key_code": "caps_lock" }],
+                "type": "basic"
+              },
+              {
+                "conditions": [
+                  {
+                    "name": "caps_arrows_mode",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "u",
+                  "modifiers": { "optional": ["any"] }
+                },
+                "to": [{ "key_code": "page_up" }],
+                "type": "basic"
+              },
+              {
+                "conditions": [
+                  {
+                    "name": "caps_arrows_mode",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "o",
+                  "modifiers": { "optional": ["any"] }
+                },
+                "to": [{ "key_code": "page_down" }],
+                "type": "basic"
+              }
+            ]
           }
         ]
       },
