@@ -61,6 +61,7 @@ cask 'visual-studio-code'
 cask 'meld'
 cask 'docker'
 cask 'rectangle'
+cask 'github'
 
 tap 'leoafarias/fvm'
 brew 'fvm'
