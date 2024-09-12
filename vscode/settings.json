@@ -119,13 +119,9 @@
   // For Monorepo ESLint
   "eslint.workingDirectories": [{ "mode": "auto" }],
   "diffEditor.hideUnchangedRegions.enabled": true,
-  "powermode.enabled": true,
-  "powermode.presets": "simple-rift",
-  "powermode.combo.location": "statusbar",
   "github.copilot.editor.enableAutoCompletions": true,
   "dart.debugExternalPackageLibraries": true,
   "typescript.implementationsCodeLens.enabled": true,
   "typescript.referencesCodeLens.enabled": true,
   "typescript.referencesCodeLens.showOnAllFunctions": true,
-  "scm.showHistoryGraph": false
 }
