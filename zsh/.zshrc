@@ -62,10 +62,13 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git virtualenv)
+plugins=(
+  git
+  virtualenv
+)
 
 # python virtualenv
-export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
+export PATH="/opt/homebrew/opt/openssl@1.1/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
 export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
 
@@ -78,7 +81,9 @@ RUBYOPT='-W:no-deprecated -W:no-experimental'
 alias bundler=$HOME/.rbenv/shims/bundler
 alias ruby=$HOME/.rbenv/shims/ruby
 alias bundle=$HOME/.rbenv/shims/bundle
-alias gem=$HOME/.rbenv/shims/gem
+# alias gem=$HOME/.rbenv/shims/gem
+export GEM_HOME="$HOME/.gem"
+export GEM_PATH="$HOME/.gem"
 alias rails=$HOME/.rbenv/shims/rails
 alias rake=$HOME/.rbenv/shims/rake
 
@@ -132,6 +137,15 @@ eval "$(pyenv init -)"
 # pyenv-virtualenv setting
 eval "$(pyenv virtualenv-init -)"
 
+# phpenv
+export PATH="$HOME/.phpenv/bin:$PATH"
+export CC="/usr/bin/gcc"
+export CXX="/usr/bin/g++"
+export CXXFLAGS="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
+export PHP_BUILD_CONFIGURE_OPTS="--with-bz2=$(brew --prefix bzip2) --with-iconv=$(brew --prefix libiconv)"
+
+eval "$(phpenv init -)"
+
 # composer
 export PATH="/usr/local/opt/php@7.2/bin:$PATH"
 export PATH="/usr/local/opt/php@7.2/sbin:$PATH"
@@ -178,3 +192,12 @@ alias go=~/.goenv/shims/go
 # JDK
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
+export PATH="/usr/local/opt/openjdk@17/bin:$PATH"
+export PATH="/usr/local/opt/openjdk@18/bin:$PATH"
+export alias java=/Users/$USER/.jenv/shims/java
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /Users/j-kim/.dart-cli-completion/zsh-config.zsh ]] && . /Users/j-kim/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]

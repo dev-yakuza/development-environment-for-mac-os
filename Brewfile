@@ -13,9 +13,6 @@ brew 'pipenv'
 brew 'pyenv-virtualenv'
 brew 'nvm'
 brew 'watchman'
-tap 'shivammathur/php'
-brew 'shivammathur/php/php@7.2', link: true
-brew 'composer'
 brew 'tree'
 brew 'openssl'
 brew 'rbenv'
@@ -38,6 +35,11 @@ brew 'jq'
 brew 'ffmpeg'
 brew 'yt-dlp'
 brew 'logrotate'
+# phpenv
+brew 'zlib'
+brew 'libiconv'
+brew 'bzip2'
+brew 'tidy-html5'
 
 mas 'LINE', id: 539_883_307
 mas 'KakaoTalk', id: 869_223_134
