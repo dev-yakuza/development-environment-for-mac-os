@@ -20,6 +20,10 @@ code --install-extension vscode-icons-team.vscode-icons
 code --install-extension johnuphoff.vscode-styled-sort
 code --install-extension bmewburn.vscode-intelephense-client
 code --install-extension onecentlin.laravel-blade
+code --install-extension mikestead.dotenv
+code --install-extension mehedidracula.php-namespace-resolver
+code --install-extension ctf0.laravel-goto-controller
+code --install-extension amiralizadeh9480.laravel-extra-intellisense
 code --install-extension ryannaddy.laravel-artisan
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension stylelint.vscode-stylelint
