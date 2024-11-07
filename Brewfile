@@ -6,7 +6,7 @@ brew 'jenv'
 
 brew 'cocoapods'
 brew 'git-flow'
-brew 'mysql@5.7'
+brew 'mysql'
 brew 'python@3.8'
 brew 'pyenv'
 brew 'pipenv'

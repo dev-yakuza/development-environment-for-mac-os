@@ -68,12 +68,12 @@ plugins=(
 )
 
 # python virtualenv
-export PATH="/opt/homebrew/opt/openssl@1.1/bin:$PATH"
-export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
-export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
+export PATH="/opt/homebrew/opt/openssl@3.4/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/openssl@3.4/lib"
+export CPPFLAGS="-I/usr/local/opt/openssl@3.4/include"
 
 # For Ruby
-export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@3)"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export CFLAGS=""
