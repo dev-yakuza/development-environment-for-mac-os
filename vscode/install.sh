@@ -16,6 +16,8 @@ code --install-extension DigitalBrainstem.javascript-ejs-support
 code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension dzannotti.vscode-babel-coloring
 code --install-extension ecmel.vscode-html-css
+code --install-extension mrmlnc.vscode-scss
+code --install-extension Zignd.html-css-class-completion
 code --install-extension editorconfig.editorconfig
 code --install-extension esbenp.prettier-vscode
 code --install-extension flutterando.flutter-coverage
