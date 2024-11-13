@@ -16,8 +16,6 @@ code --install-extension DigitalBrainstem.javascript-ejs-support
 code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension dzannotti.vscode-babel-coloring
 code --install-extension ecmel.vscode-html-css
-code --install-extension mrmlnc.vscode-scss
-code --install-extension Zignd.html-css-class-completion
 code --install-extension editorconfig.editorconfig
 code --install-extension esbenp.prettier-vscode
 code --install-extension flutterando.flutter-coverage
@@ -41,6 +39,7 @@ code --install-extension mf.vscode-styled-components
 code --install-extension mhutchie.git-graph
 code --install-extension mikestead.dotenv
 code --install-extension misogi.ruby-rubocop
+code --install-extension mrmlnc.vscode-scss
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-playwright.playwright
 code --install-extension ms-python.python
@@ -71,6 +70,7 @@ code --install-extension vscode-icons-team.vscode-icons
 code --install-extension Vue.volar
 code --install-extension wayou.vscode-todo-highlight
 code --install-extension wingrunr21.vscode-ruby
+code --install-extension Zignd.html-css-class-completion
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
