@@ -3,6 +3,7 @@
 # phpenv
 git clone git@github.com:phpenv/phpenv.git ~/.phpenv
 source ~/.zshrc
+rm  ~/.phpenv/shims/.phpenv-shim
 phpenv rehash
 
 curl -L https://raw.githubusercontent.com/phpenv/phpenv-installer/master/bin/phpenv-installer \
