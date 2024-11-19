@@ -17,10 +17,12 @@ phpenv global 8.2.23
 phpenv rehash
 
 # composer
-curl -sS https://getcomposer.org/installer | php
-mv composer.phar /usr/local/bin/composer
-composer --version
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('SHA384', 'composer-setup.php') === trim(file_get_contents('https://composer.github.io/installer.sig'))) { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+sudo mv composer.phar /usr/local/bin/composer
 
-# composer create-project --prefer-dist laravel/laravel project-name "11.*"
-
+# Laravel
+/bin/bash -c "$(curl -fsSL https://php.new/install/mac)"
 composer global require laravel/installer
