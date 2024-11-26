@@ -70,7 +70,9 @@ code --install-extension vscode-icons-team.vscode-icons
 code --install-extension Vue.volar
 code --install-extension wayou.vscode-todo-highlight
 code --install-extension wingrunr21.vscode-ruby
+code --install-extension xdebug.php-debug
 code --install-extension Zignd.html-css-class-completion
+code --install-extension zobo.php-intellisense
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
