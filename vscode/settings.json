@@ -117,11 +117,21 @@
   "diffEditor.useInlineViewWhenSpaceIsLimited": false,
   "diffEditor.ignoreTrimWhitespace": false,
   // For Monorepo ESLint
-  "eslint.workingDirectories": [{ "mode": "auto" }],
-  "diffEditor.hideUnchangedRegions.enabled": true,
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
   "github.copilot.editor.enableAutoCompletions": true,
   "dart.debugExternalPackageLibraries": true,
   "typescript.implementationsCodeLens.enabled": true,
   "typescript.referencesCodeLens.enabled": true,
   "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "files.associations": {
+    "*.blade.php": "html"
+  },
+  "php.validate.executablePath": "/Users/j-kim/.config/herd-lite/bin/php",
+  "intelephense.environment.phpVersion": "8.3.12",
 }
