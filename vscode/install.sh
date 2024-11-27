@@ -48,6 +48,7 @@ code --install-extension mutantdino.resourcemonitor
 code --install-extension octref.vetur
 code --install-extension oderwat.indent-rainbow
 code --install-extension onecentlin.laravel-blade
+code --install-extension open-southeners.laravel-pint
 code --install-extension patbenatar.advanced-new-file
 code --install-extension pflannery.vscode-versionlens
 code --install-extension pnp.polacode
@@ -58,6 +59,7 @@ code --install-extension ritwickdey.LiveServer
 code --install-extension RoscoP.ActiveFileInStatusBar
 code --install-extension ryannaddy.laravel-artisan
 code --install-extension ryu1kn.partial-diff
+code --install-extension SanderRonde.phpstan-vscode
 code --install-extension shardulm94.trailing-spaces
 code --install-extension sleistner.vscode-fileutils
 code --install-extension solomonkinard.git-blame
