@@ -134,4 +134,8 @@
   },
   "php.validate.executablePath": "/Users/j-kim/.config/herd-lite/bin/php",
   "intelephense.environment.phpVersion": "8.3.12",
+  "laravel-pint.enable": true,
+  "[php]": {
+    "editor.defaultFormatter": "open-southeners.laravel-pint"
+  }
 }
