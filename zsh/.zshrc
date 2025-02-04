@@ -142,18 +142,19 @@ export PATH="$HOME/.phpenv/bin:$PATH"
 export CC="/usr/bin/gcc"
 export CXX="/usr/bin/g++"
 export CXXFLAGS="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
-export PHP_BUILD_CONFIGURE_OPTS="--with-bz2=$(brew --prefix bzip2) --with-iconv=$(brew --prefix libiconv)"
+export PHP_BUILD_CONFIGURE_OPTS="--with-tidy=$(brew --prefix tidy-html5) --with-bz2=$(brew --prefix bzip2) --with-iconv=$(brew --prefix libiconv)"
 
 eval "$(phpenv init -)"
 
 # composer
-export PATH="/usr/local/opt/php@7.2/bin:$PATH"
-export PATH="/usr/local/opt/php@7.2/sbin:$PATH"
+alias php="$HOME/.phpenv/shims/php"
 alias composer="php /usr/local/bin/composer"
 # Laravel
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 # mysql
-export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+# export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+export PATH="/usr/local/mysql/bin:$PATH"
+
 
 # Android path for React Native
 export ANDROID_HOME=$HOME/Library/Android/sdk
@@ -187,7 +188,7 @@ export PATH="$GOENV_ROOT/bin:$PATH"
 eval "$(goenv init -)"
 export PATH="$GOROOT/bin:$PATH"
 export PATH="$PATH:$GOPATH/bin"
-alias go=~/.goenv/shims/go
+# alias go=~/.goenv/shims/go
 
 # JDK
 export PATH="$HOME/.jenv/bin:$PATH"
@@ -201,3 +202,5 @@ export alias java=/Users/$USER/.jenv/shims/java
 ## Completion scripts setup. Remove the following line to uninstall
 [[ -f /Users/j-kim/.dart-cli-completion/zsh-config.zsh ]] && . /Users/j-kim/.dart-cli-completion/zsh-config.zsh || true
 ## [/Completion]
+export PATH="/Users/j-kim/.config/herd-lite/bin:$PATH"
+export PHP_INI_SCAN_DIR="/Users/j-kim/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
