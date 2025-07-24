@@ -75,6 +75,7 @@ code --install-extension wingrunr21.vscode-ruby
 code --install-extension xdebug.php-debug
 code --install-extension Zignd.html-css-class-completion
 code --install-extension zobo.php-intellisense
+code --install-extension humao.rest-client
 
 # copy vscode settings
 cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
