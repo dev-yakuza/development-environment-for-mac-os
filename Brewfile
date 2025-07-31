@@ -61,7 +61,7 @@ cask 'framer'
 cask 'dbeaver-community'
 cask 'visual-studio-code'
 cask 'meld'
-cask 'docker'
+cask 'rancher'
 cask 'rectangle'
 cask 'github'
 
