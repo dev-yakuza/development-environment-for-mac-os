@@ -41,6 +41,7 @@ brew 'libiconv'
 brew 'bzip2'
 brew 'tidy-html5'
 brew 'parallel'
+brew 'terminal-notifier'
 
 mas 'LINE', id: 539_883_307
 mas 'KakaoTalk', id: 869_223_134
