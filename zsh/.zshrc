@@ -81,6 +81,8 @@ RUBYOPT='-W:no-deprecated -W:no-experimental'
 alias bundler=$HOME/.rbenv/shims/bundler
 alias ruby=$HOME/.rbenv/shims/ruby
 alias bundle=$HOME/.rbenv/shims/bundle
+export RUBYOPT="-rresolv-replace"
+
 # alias gem=$HOME/.rbenv/shims/gem
 export GEM_HOME="$HOME/.gem"
 export GEM_PATH="$HOME/.gem"
