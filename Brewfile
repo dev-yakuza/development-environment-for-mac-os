@@ -66,6 +66,7 @@ cask 'meld'
 cask 'rancher'
 cask 'rectangle'
 cask 'github'
+cask 'claude-code'
 
 tap 'leoafarias/fvm'
 brew 'fvm'
