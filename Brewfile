@@ -69,4 +69,5 @@ cask 'github'
 cask 'claude-code'
 
 tap 'leoafarias/fvm'
+tap  'homebrew/autoupdate'
 brew 'fvm'
