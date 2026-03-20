@@ -214,3 +214,5 @@ echo "Oepn System Settings -> Accessibility -> Enable 'Reduce motion' and 'Reduc
 echo "Oepn System Settings -> Spotlight -> Disable all without Applications"
 
 sudo pmset -c disablesleep 0
+
+brew autoupdate --start 43200 --upgrade
