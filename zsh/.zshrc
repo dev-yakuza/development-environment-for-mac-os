@@ -134,8 +134,7 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 alias python=python3
 alias pip=pip3
 # pyenv setting
-eval "$(pyenv init --path)"
-eval "$(pyenv init -)"
+eval "$(pyenv init - --no-rehash zsh)"
 # pyenv-virtualenv setting
 eval "$(pyenv virtualenv-init -)"
 
