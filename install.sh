@@ -183,6 +183,9 @@ zsh ./macos/dock.sh
 chmod 755 ./macos/touchpad.sh
 zsh ./macos/touchpad.sh
 
+chmod 755 ./macos/optimize.sh
+zsh ./macos/optimize.sh
+
 echo "End #############################################################"
 
 
